@@ -2,10 +2,8 @@
 
 # Topics
 
-## Dart
+## Flutter
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Dart](README.md#android-basics-1) |
-| 2 | [Core Java](README.md#core-java) |
-| 3 | [Android Architecture Components](README.md#android-architecture-components) |
+| 1 | [Flutter](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-1.md#the-anatomy-of-flutter-app) |
