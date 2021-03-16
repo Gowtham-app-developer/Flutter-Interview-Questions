@@ -22,3 +22,8 @@
 | 14 | [Expanded Widget](README.md#core-java) |
 | 15 | [Material Icons](README.md#core-java) |
 | 16 | [SafeArea Widget](README.md#core-java) |
+| 17 | [pubspec.yaml file](README.md#core-java) |
+| 18 | [main Axis Alignment and cross Axis Alignment](README.md#core-java) |
+| 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
+| 20 | [InheritedWidget](README.md#core-java) |
+| 21 | [difference between "main()" and "runApp()" functions in Flutter](README.md#core-java) |
