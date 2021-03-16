@@ -11,6 +11,14 @@
 | 3 | [MaterialApp Class](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#materialapp-class) |
 | 4 | [Scaffold Widet](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#scaffold-widet) |
 | 5 | [Assets and pubspec file](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#working-with-assets-and-pubspec-file) |
-| 2 | [Core Java](README.md#core-java) |
-| 2 | [Core Java](README.md#core-java) |
-| 2 | [Core Java](README.md#core-java) |
+| 6 | [MaterialApp Class](README.md#core-java) |
+| 7 | [Scaffold Widet](README.md#core-java) |
+| 8 | [Hot Reload](README.md#core-java) |
+| 9 | [Hot Restart](README.md#core-java) |
+| 10 | [Single-child layout widgets](README.md#core-java) |
+| 11 | [Multi-child layout widgets](README.md#core-java) |
+| 12 | [Material Icons](README.md#core-java) |
+| 13 | [Widget](README.md#core-java) |
+| 14 | [Expanded Widget](README.md#core-java) |
+| 15 | [Material Icons](README.md#core-java) |
+| 16 | [SafeArea Widget](README.md#core-java) |
