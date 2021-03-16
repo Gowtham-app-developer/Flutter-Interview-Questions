@@ -12,7 +12,7 @@
 | 4 | [Scaffold Widet](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#scaffold-widet) |
 | 5 | [Assets and pubspec file](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#working-with-assets-and-pubspec-file) |
 | 6 | [MaterialApp Class](README.md#core-java) |
-| 7 | [Scaffold Widet](README.md#core-java) |
+| 7 | [Stateful vs Stateless Widget](README.md#core-java) |
 | 8 | [Hot Reload](README.md#core-java) |
 | 9 | [Hot Restart](README.md#core-java) |
 | 10 | [Single-child layout widgets](README.md#core-java) |
