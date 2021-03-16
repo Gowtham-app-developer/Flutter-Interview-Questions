@@ -27,3 +27,4 @@
 | 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
 | 20 | [InheritedWidget](README.md#core-java) |
 | 21 | [difference between "main()" and "runApp()" functions in Flutter](README.md#core-java) |
+| 22 | [What is an App state?](README.md#core-java) |
