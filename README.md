@@ -124,3 +124,93 @@ flutter:
 - So if you are using States value in your application then after every hot restart the developer gets fully compiled application and all the states will set to their             defaults.
 - The app widget tree is completely rebuilt with new typed code. 
 - Hot Restart takes much higher time than Hot reload.
+
+## Layout widgets
+
+- Two Types -> Single-child layout widgets & Multi-child layout widgets.
+
+## Single-child layout widgets 
+
+- The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
+- Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
+  LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
+  
+```ruby
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+            child: Container(
+              height: 100.0,
+              width: 100.0,
+              margin: EdgeInsets.only(left: 30.0),
+              padding: EdgeInsets.all(20.0),
+              child: Text('Hello World'),
+              color: Colors.orange,
+            ),
+          ),
+      ),
+    );
+  }
+}
+```
+
+## Multi-child layout widgets
+
+- The multiple child widgets are a type of widget, which contains more than one child widget, and the layout of these widgets are unique. 
+- Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
+
+__main.dart__
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+            // SafeArea indicates the Viewing Screen Area
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch, // which indicates the child item to fill Parent so that we don't need
+              children: <Widget>[
+                Container(
+                  height: 100.0,
+                  child: Text('Container 1'),
+                  color: Colors.orange,
+                ),
+                SizedBox(height: 20.0,),
+                Container(
+                  height: 100.0,
+                  child: Text('Container 2'),
+                  color: Colors.blue,
+                ),
+                SizedBox(height: 20.0,),
+                Container(
+                  height: 100.0,
+                  child: Text('Container 3'),
+                  color: Colors.red,
+                ),
+              ],
+        )),
+      ),
+    );
+  }
+}
+```
