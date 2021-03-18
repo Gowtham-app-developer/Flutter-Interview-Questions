@@ -25,8 +25,7 @@
 | 18 | [main Axis Alignment and cross Axis Alignment](README.md#core-java) |
 | 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
 | 20 | [InheritedWidget](README.md#core-java) |
-| 21 | [difference between "main()" and "runApp()" functions in Flutter](README.md#core-java) |
-| 22 | [What is an App state?](README.md#core-java) |
+| 21 | [What is an App state?](README.md#core-java) |
 
 ## Flutter
 
@@ -274,3 +273,13 @@ void main() {
   print(mDate);
 }
 ```
+
+## Widget
+
+- Widget is a description of a part of UI(i.e.) Widget is a way to declare and construct UI.
+- In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
+- For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc.
+
+## Expanded Widget
+
+- By Using an Expanded widget makes a child of a Row, Column, or Flex expand to fill the available space along the main axis (e.g., horizontally for a Row or vertically for a     Column).
