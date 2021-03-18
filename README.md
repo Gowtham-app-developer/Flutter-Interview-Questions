@@ -6,23 +6,22 @@
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Flutter](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-1.md#what-is-flutter) |
-| 2 | [Why Flutter](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-1.md#why-flutter) |
-| 3 | [MaterialApp Class](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#materialapp-class) |
-| 4 | [Scaffold Widet](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#scaffold-widet) |
-| 5 | [Assets and pubspec file](https://github.com/AndroidPillars/Flutter/blob/master/CHAPTER-2.md#working-with-assets-and-pubspec-file) |
-| 6 | [MaterialApp Class](README.md#core-java) |
-| 7 | [Stateful vs Stateless Widget](README.md#core-java) |
-| 8 | [Hot Reload](README.md#core-java) |
-| 9 | [Hot Restart](README.md#core-java) |
-| 10 | [Single-child layout widgets](README.md#core-java) |
-| 11 | [Multi-child layout widgets](README.md#core-java) |
-| 12 | [Material Icons](README.md#core-java) |
-| 13 | [Widget](README.md#core-java) |
+| 1 | [Flutter](README.md#flutter-1) |
+| 2 | [Why Flutter](README.md#why-flutter) |
+| 3 | [MaterialApp Class](README.md#materialapp-class) |
+| 4 | [Scaffold Widet](README.md#scaffold-widget) |
+| 5 | [pubspec.yaml file](README.md#pubspecyaml-file) |
+| 6 | [Hot Reload](README.md#hot-reload) |
+| 7 | [Hot Restart](README.md#hot-restart) |
+| 8 | [Layout widgets](README.md#core-java) |
+| 9 | [Single-child layout widgets](README.md#single-child-layout-widgets) |
+| 10 | [Multi-child layout widgets](README.md#multi-child-layout-widgets) |
+| 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#difference-bw-main-function-and-the-runapp-function-in-flutter) |
+| 12 | [Stateful vs Stateless Widget](README.md#stateful-vs-stateless-widget) |
+| 13 | [difference between final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
+| 14 | [Widget](README.md#core-java) |
 | 14 | [Expanded Widget](README.md#core-java) |
-| 15 | [Material Icons](README.md#core-java) |
 | 16 | [SafeArea Widget](README.md#core-java) |
-| 17 | [pubspec.yaml file](README.md#core-java) |
 | 18 | [main Axis Alignment and cross Axis Alignment](README.md#core-java) |
 | 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
 | 20 | [InheritedWidget](README.md#core-java) |
