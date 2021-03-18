@@ -257,3 +257,21 @@ __Stateful Widget__
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if the Widget’s state changes.
 - For Example: Checkbox, Radio Button, Slider are Stateful Widgets.
+
+## difference between final and const in Flutter?
+
+- If you never intend to change a variable then we have to declare using the keyword final or const.
+- In __const__ Value must be known at compile-time, const birthday = "2020/07/28" Can't be changed after initialized.
+- In __final__ Value must be known at run-time, final birthday = getBirthDateFromDB() Can't be changed after initialized.
+
+__Example__
+
+```ruby
+void main() {
+  const int myCount = 3;
+  final  mDate = DateTime.now();
+  
+  print(myCount);
+  print(mDate);
+}
+```
