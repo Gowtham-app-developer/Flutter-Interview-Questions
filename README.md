@@ -131,8 +131,6 @@ flutter:
 - The app widget tree is completely rebuilt with new typed code. 
 - Hot Restart takes much higher time than Hot reload.
 
-__Example__
-
 ## Layout widgets
 
 - Two Types -> Single-child layout widgets & Multi-child layout widgets.
@@ -143,6 +141,8 @@ __Example__
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
   LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
   
+__Example__
+
 ```ruby
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
