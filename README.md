@@ -18,7 +18,7 @@
 | 10 | [Multi-child layout widgets](README.md#multi-child-layout-widgets) |
 | 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#difference-bw-main-function-and-the-runapp-function-in-flutter) |
 | 12 | [Stateful vs Stateless Widget](README.md#stateful-vs-stateless-widget) |
-| 13 | [difference between final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
+| 13 | [Difference b/w final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
 | 14 | [Widget](README.md#core-java) |
 | 14 | [Expanded Widget](README.md#core-java) |
 | 16 | [SafeArea Widget](README.md#core-java) |
