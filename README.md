@@ -221,3 +221,21 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+## Difference b/w main() function and the runApp() function in Flutter?
+
+- In Dart, __main()__ acts as the entry point for the program whereas __runApp()__ attaches the given widget to the screen.
+
+__Example__
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+      MaterialApp(
+        home: Center(
+          child: Text('Hello world'),
+        ),
+      ),
+    );
+```  
