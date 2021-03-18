@@ -62,3 +62,50 @@ void main() => runApp(
       ),
     );
 ```  
+
+## Scaffold Widet
+
+- A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
+- A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
+- It provides APIs for showing drawers, snack bars and bottom sheets. 
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.blueGrey,
+          appBar: AppBar(
+            centerTitle: true,
+            title: Text('Home'),
+            backgroundColor: Colors.blueGrey[900],
+          ),
+          body: Center(
+            child: Image(
+              image: NetworkImage(
+                  'https://www.w3schools.com/w3css/img_lights.jpg'),
+            ),
+          ),
+        ),
+      ),
+    );
+```
+
+## pubspec.yaml file
+
+- This is a special type of file called yaml file which stands for YAML Ain't Markup Language.
+- The pubspec.yaml is a file where you can provide all the dependencies (optional and required — e.g., plugins, Dart version, font, images) of your Flutter project and also a     place where you configure the project’s name and description.
+- For Android developers, this is slightly similar to a build.gradle file.
+
+```ruby
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
+```
