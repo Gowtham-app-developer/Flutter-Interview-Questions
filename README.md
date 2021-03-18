@@ -242,7 +242,7 @@ void main() => runApp(
 
 ## Stateful vs Stateless Widget
 
-__Stateless Widget:__
+__Stateless Widget__
 
 - A widget that has an immutable state.
 - Stateless Widgets are static widgets.
@@ -250,7 +250,7 @@ __Stateless Widget:__
 - Stateless Widgets do not have a state, they will be rendered once and will not update themselves, but will only be updated when external data changes.
 - For Example: Text, Icon, RaisedButton are Stateless Widgets.
 
-__Stateful Widget:__
+__Stateful Widget__
 
 - A widget that has a mutable state.
 - Stateful Widgets are dynamic widgets.
