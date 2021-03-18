@@ -51,6 +51,8 @@
 - It is likely the main or core component of flutter.
 - We can access all the other components and widgets provided by Flutter SDK in our App.
 
+__Example__
+
 ```ruby
 import 'package:flutter/material.dart';
 
@@ -68,6 +70,8 @@ void main() => runApp(
 - A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
 - A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
 - It provides APIs for showing drawers, snack bars and bottom sheets. 
+
+__Example__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -98,6 +102,8 @@ void main() => runApp(
 - The pubspec.yaml is a file where you can provide all the dependencies (optional and required — e.g., plugins, Dart version, font, images) of your Flutter project and also a     place where you configure the project’s name and description.
 - For Android developers, this is slightly similar to a build.gradle file.
 
+__Example__
+
 ```ruby
 flutter:
 
@@ -124,6 +130,8 @@ flutter:
 - So if you are using States value in your application then after every hot restart the developer gets fully compiled application and all the states will set to their             defaults.
 - The app widget tree is completely rebuilt with new typed code. 
 - Hot Restart takes much higher time than Hot reload.
+
+__Example__
 
 ## Layout widgets
 
@@ -170,7 +178,7 @@ class MyApp extends StatelessWidget {
 - The multiple child widgets are a type of widget, which contains more than one child widget, and the layout of these widgets are unique. 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
-__main.dart__
+__Example__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -186,9 +194,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-            // SafeArea indicates the Viewing Screen Area
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch, // which indicates the child item to fill Parent so that we don't need
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   height: 100.0,
