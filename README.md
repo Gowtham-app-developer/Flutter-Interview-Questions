@@ -35,3 +35,30 @@
 - Flutter apps are built using the Dart programming language.
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
 - Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS.
+
+## Why Flutter
+
+- It is a single code base.
+- Dart is a powerful language that is quite easy to work and is very similar to Oops and we can learn easily.
+- We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
+- Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.
+- Hot Reload -> Instant run with in a Second.
+- It's a Open source.
+
+## MaterialApp Class
+
+- MaterialApp is a predefined class in a flutter.
+- It is likely the main or core component of flutter.
+- We can access all the other components and widgets provided by Flutter SDK in our App.
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+      MaterialApp(
+        home: Center(
+          child: Text('Hello world'),
+        ),
+      ),
+    );
+```  
