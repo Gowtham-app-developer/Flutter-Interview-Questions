@@ -28,3 +28,10 @@
 | 20 | [InheritedWidget](README.md#core-java) |
 | 21 | [difference between "main()" and "runApp()" functions in Flutter](README.md#core-java) |
 | 22 | [What is an App state?](README.md#core-java) |
+
+## Flutter
+
+- Flutter is a mobile UI framework developed by google which allows us to build both Android, IOS and even web with one single code base.
+- Flutter apps are built using the Dart programming language.
+- In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
+- Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS.
