@@ -1,7 +1,8 @@
 # Flutter-Interview-Questions
 
-Click :star: if you like the project. Pull Request are highly appreciated.
-
+:point_right: Click :star: if you like the project.   
+:point_right: Pull Request are highly appreciated.  
+:point_right: Follow me [@Gowtham R](https://twitter.com/Gowtham26730226) for new technical updates.  
 
 ## Flutter
 
