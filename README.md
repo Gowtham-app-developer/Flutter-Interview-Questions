@@ -8,7 +8,7 @@
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Flutter](README.md#flutter-1) |
+| 1 | [Flutter](README.md#flutter) |
 | 2 | [Why Flutter](README.md#why-flutter) |
 | 3 | [MaterialApp Class](README.md#materialapp-class) |
 | 4 | [Scaffold Widet](README.md#scaffold-widget) |
