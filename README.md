@@ -248,6 +248,17 @@ __Stateless Widget__
 - Stateless Widgets do not have a state, they will be rendered once and will not update themselves, but will only be updated when external data changes.
 - For Example: Text, Icon, RaisedButton are Stateless Widgets.
 
+__Example__
+
+```ruby
+class Screen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return null;
+  }
+}
+```
+
 __Stateful Widget__
 
 - A widget that has a mutable state.
