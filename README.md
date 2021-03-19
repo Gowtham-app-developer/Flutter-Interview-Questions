@@ -43,7 +43,9 @@
 - We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
 - Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.
 - Hot Reload -> Instant run with in a Second.
-- It's a Open source.
+- It's a Open source.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## MaterialApp Class
 
@@ -64,6 +66,7 @@ void main() => runApp(
       ),
     );
 ```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Scaffold Widget
 
@@ -94,7 +97,9 @@ void main() => runApp(
         ),
       ),
     );
-```
+```  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## pubspec.yaml file
 
@@ -113,15 +118,18 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/
+```  
 
-```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Hot Reload
 
 - Hot reload feature quickly compile the newly added code in our file and sent the code to Dart Virtual Machine.
 - Once done updating the Code Dart Virtual Machine update the app UI with widgets.
 - Hot Reload takes less time then Hot restart.
-- There is also a draw back in Hot Reload, If you are using States in your application then Hot Reload preservers the States so they will not update on Hot Reload our set to       their default values. 
+- There is also a draw back in Hot Reload, If you are using States in your application then Hot Reload preservers the States so they will not update on Hot Reload our set to       their default values.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Hot Restart
 
@@ -129,11 +137,15 @@ flutter:
 - In Hot restart it destroys the preserves State value and set them to their default.
 - So if you are using States value in your application then after every hot restart the developer gets fully compiled application and all the states will set to their             defaults.
 - The app widget tree is completely rebuilt with new typed code. 
-- Hot Restart takes much higher time than Hot reload.
+- Hot Restart takes much higher time than Hot reload.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Layout widgets
 
-- Two Types -> Single-child layout widgets & Multi-child layout widgets.
+- Two Types -> Single-child layout widgets & Multi-child layout widgets.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Single-child layout widgets 
 
@@ -171,7 +183,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-```
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Multi-child layout widgets
 
@@ -220,7 +233,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-```
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Difference b/w main() function and the runApp() function in Flutter?
 
