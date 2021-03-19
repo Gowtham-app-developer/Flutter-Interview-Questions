@@ -34,14 +34,8 @@ Click :star: if you like the project. Pull Request are highly appreciated.
 - Flutter apps are built using the Dart programming language.
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
 - Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS.  
-
-:arrow_up:<h3 style="color:#ff0000">Back to Top</h3>
-
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
-<span style="color:orange;">Word up</span>
+- 
+:arrow_up: [Back to Top](README.md#flutter-1)
 
 ## Why Flutter
 
