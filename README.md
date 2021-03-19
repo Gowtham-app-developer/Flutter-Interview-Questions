@@ -1,6 +1,7 @@
 # Flutter-Interview-Questions
 
-# Topics
+Click :star: if you like the project. Pull Request are highly appreciated.
+
 
 ## Flutter
 
@@ -32,7 +33,15 @@
 - Flutter is a mobile UI framework developed by google which allows us to build both Android, IOS and even web with one single code base.
 - Flutter apps are built using the Dart programming language.
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
-- Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS.
+- Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS.  
+
+:arrow_up:<h3 style="color:#ff0000">Back to Top</h3>
+
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
+<span style="color:orange;">Word up</span>
 
 ## Why Flutter
 
