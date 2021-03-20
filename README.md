@@ -397,3 +397,7 @@ SafeArea(
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
+## Lifecycle of a StatefulWidget
+
+
+
