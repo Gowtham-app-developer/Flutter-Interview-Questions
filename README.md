@@ -21,8 +21,8 @@
 | 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#difference-bw-main-function-and-the-runapp-function-in-flutter) |
 | 12 | [Stateful vs Stateless Widget](README.md#stateful-vs-stateless-widget) |
 | 13 | [Difference b/w final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
-| 14 | [Widget](README.md#core-java) |
-| 14 | [Expanded Widget](README.md#core-java) |
+| 14 | [Widget](README.md#widget) |
+| 15 | [Expanded Widget](README.md#expanded-widget) |
 | 16 | [SafeArea Widget](README.md#core-java) |
 | 18 | [main Axis Alignment and cross Axis Alignment](README.md#core-java) |
 | 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
@@ -53,7 +53,7 @@
 
 - MaterialApp is a predefined class in a flutter.
 - It is likely the main or core component of flutter.
-- We can access all the other components and widgets provided by Flutter SDK in our App.
+- It contains widgets that are used for the material design of an application.
 
 __Example__
 
@@ -105,9 +105,9 @@ void main() => runApp(
 
 ## pubspec.yaml file
 
-- This is a special type of file called yaml file which stands for YAML Ain't Markup Language.
 - The pubspec.yaml is a file where you can provide all the dependencies (optional and required — e.g., plugins, Dart version, font, images) of your Flutter project and also a     place where you configure the project’s name and description.
 - For Android developers, this is slightly similar to a build.gradle file.
+- yaml is a special type of file called yaml file which stands for YAML Ain't Markup Language.
 
 __Example__
 
@@ -152,7 +152,7 @@ flutter:
 ## Single-child layout widgets 
 
 - The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
-- Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
+- Examples: Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
   LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
   
 __Example__
@@ -191,7 +191,7 @@ class MyApp extends StatelessWidget {
 ## Multi-child layout widgets
 
 - The multiple child widgets are a type of widget, which contains more than one child widget, and the layout of these widgets are unique. 
-- Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
+- Examples: Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
 __Example__
 
@@ -255,6 +255,7 @@ void main() => runApp(
       ),
     );
 ``` 
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Stateful vs Stateless Widget
 
@@ -275,7 +276,7 @@ class Screen extends StatelessWidget {
     return null;
   }
 }
-```
+```  
 
 __Stateful Widget__
 
@@ -284,6 +285,28 @@ __Stateful Widget__
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if the Widget’s state changes.
 - For Example: Checkbox, Radio Button, Slider are Stateful Widgets.
+
+```ruby
+class Car extends StatefulWidget {  
+  const Car({ Key key, this.title }) : super(key: key);   
+  
+  @override  
+  _CarState createState() => _CarState();  
+}  
+  
+class _CarState extends State<Car> {  
+  @override  
+  Widget build(BuildContext context) {  
+    return Container(  
+      color: const Color(0xFEEFE),  
+           child: Container(  
+            child: Container(child: Container())
+        )  
+    );  
+  }  
+}  
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## difference between final and const in Flutter?
 
@@ -301,14 +324,53 @@ void main() {
   print(myCount);
   print(mDate);
 }
-```
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Widget
 
 - Widget is a description of a part of UI(i.e.) Widget is a way to declare and construct UI.
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
-- For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc.
+- For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc.   
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
 ## Expanded Widget
 
 - By Using an Expanded widget makes a child of a Row, Column, or Flex expand to fill the available space along the main axis (e.g., horizontally for a Row or vertically for a     Column).
+
+```ruby
+class DicePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                flex: 2,
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Image.asset('images/dice1.png'),
+                ),
+              ),
+              Expanded(
+                flex: 2,
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Image(
+                    image: AssetImage('images/dice1.png'),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
