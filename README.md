@@ -24,8 +24,8 @@
 | 14 | [Widget](README.md#widget) |
 | 15 | [Expanded Widget](README.md#expanded-widget) |
 | 16 | [SafeArea Widget](README.md#core-java) |
-| 18 | [main Axis Alignment and cross Axis Alignment](README.md#core-java) |
-| 19 | [lifecycle of a ‘StatefulWidget’](README.md#core-java) |
+| 18 | [Main Axis Alignment and Cross Axis Alignment](README.md#core-java) |
+| 19 | [Lifecycle of a ‘StatefulWidget’](README.md#core-java) |
 | 20 | [InheritedWidget](README.md#core-java) |
 | 21 | [What is an App state?](README.md#core-java) |
 
@@ -374,3 +374,26 @@ class DicePage extends StatelessWidget {
 }
 ```  
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
+
+## SafeArea Widget
+
+- SafeArea is basically a padding widget, which adds any necessary padding to your app, based on the device it is running on.
+- If your app’s widgets are overlaying any of the system’s features like notches, status bar, camera holes, or any other such features, then SafeArea would add padding around     the app, as required.
+
+```ruby
+SafeArea(
+  minimum: const EdgeInsets.all(16.0),
+  child: Text('My Widget'),
+)
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
+
+## Main Axis Alignment and Cross Axis Alignment
+
+- The mainAxisAlignment property aligns all the content of Column widget relative to the main axis of Column widget, and crossAxisAlignment property aligns all the content         relative to the cross axis of Column widget.
+- The Main Axis for Column widget is the Vertical Axis,(i.e.) “Y Axis”, as it is mainly on vertical Axis, and the Cross Axis for the Column widget is Horizontal Axis, i.e., “X-   Axis”, as the Column widget is crossing the X-Axis.
+
+![omg_one](https://user-images.githubusercontent.com/78175168/111883311-83180080-89e0-11eb-8a98-059c6d640ad0.png)
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
+
