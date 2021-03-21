@@ -30,7 +30,7 @@
 | 21 | [What is an App state?](README.md#core-java) |
 | 22 | [Routes & Navigation](README.md#routes--navigation) |
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
-|    | [Dart] |
+|    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
 | 3 | [What is a difference between these operators "?? and ?.](README.md#what-is-a-difference-between-these-operators--and-) |
