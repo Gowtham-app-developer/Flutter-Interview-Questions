@@ -26,7 +26,7 @@
 | 16 | [SafeArea Widget](README.md#core-java) |
 | 18 | [Main Axis Alignment and Cross Axis Alignment](README.md#core-java) |
 | 19 | [Lifecycle of a StatefulWidget](README.md#core-java) |
-| 20 | [InheritedWidget](README.md#core-java) |
+| 20 | [Inherited Widget](README.md#core-java) |
 | 21 | [What is an App state?](README.md#core-java) |
 | 22 | [Routes & Navigation](README.md#routes--navigation) |
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
