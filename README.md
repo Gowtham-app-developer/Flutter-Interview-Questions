@@ -709,3 +709,41 @@ class Human{
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Inheritance
+
+- Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
+- It provides code reusability. 
+- It is used to achieve runtime polymorphism.
+
+__Example__
+
+```ruby
+void main(){
+  
+  Monkey mMonkey = Monkey();
+  print(mMonkey.height);
+  
+  mMonkey.talk('Hello World');
+  mMonkey.monkeWeight();
+}
+
+class Human{
+  
+  double height = 10.0;
+  int age = 60;
+  
+  void talk(String mStringText){
+    print(mStringText);
+  }
+}
+
+class Monkey extends Human{
+  
+  double weight = 150.0;
+  
+  void monkeWeight(){
+     print('Weight$weight');
+  } 
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
