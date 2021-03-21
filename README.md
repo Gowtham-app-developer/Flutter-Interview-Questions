@@ -747,3 +747,27 @@ class Monkey extends Human{
 }
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
+
+## Abstraction
+
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+- It can have abstract and non-abstract methods (method with the body).
+- In other words, Split up the functionality in to different Component.
+
+```ruby
+abstract class Shape {
+	double area();
+}
+
+class Square implements Shape{
+	Square({this.side});
+  final double side;
+  double area() => side * side;
+}
+
+void main(){
+	final square = Square(side: 10.0);
+  print(square.area());
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
