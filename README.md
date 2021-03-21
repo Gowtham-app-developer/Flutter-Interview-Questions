@@ -588,19 +588,23 @@ onPressed: (){
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
 
-## What is a difference between these operators "?? and ?." 
-
-__Default operator(??)__
+## What is a difference between these operators "?? and ?.
 
 - Null-aware operators in dart allow you to make computations based on whether or not a value is null. 
 - It’s shorthand for longer expressions.
 
+__Default operator(??)__
+
+- Use ?? when you want to evaluate and return an expression if another expression resolves to null.
+
 __Syntax__
 
 ```ruby
-mVariable ?? defaultValue
+var value = mVariable ?? defaultValue
 ```
 __Safe navigation operator(?.)__
+
+- We can use nullable types by appending a question mark ? to a variable type
 
 ```ruby
 class Car {
@@ -616,7 +620,7 @@ void main() {
 }
 ```
 
-
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
 
 
 
