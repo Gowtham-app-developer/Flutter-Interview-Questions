@@ -549,3 +549,13 @@ void task3(String resultData) {
 }
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+## Dart
+
+- Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
+- It is a statically typed language.
+- Dart compiles to modern JavaScript to run in the browser and compiles to native code to run on mobile platforms like Android and iOS.
+- It is Productive and Fast because of using JIT compiler [Hot Reload] and AOT compiler.
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
