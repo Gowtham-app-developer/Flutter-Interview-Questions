@@ -550,6 +550,14 @@ void task3(String resultData) {
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## What are packages and plugins in Flutter? 
+
+- The __plugin__ contains both Dart and Native code (kotlin, js and swift).
+- The __package__ contains only Dart code.
+- The __package__ can use plugins if it wants to and it will still qualify as a package.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Dart
 
 - Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
@@ -558,4 +566,29 @@ void task3(String resultData) {
 - It is Productive and Fast because of using JIT compiler [Hot Reload] and AOT compiler.
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+## Anonymous Function
+
+- An anonymous function is a function without a name. 
+- An anonymous function allows us to tell the computer to do something without explicitly having to create this entire function by giving it a name and call its name.
+- For example when we were coding up on our on pressed which expected a void callback.
+
+```ruby
+(){
+//To Do Something
+}
+```
+
+__Example in Dart using Anonymous Function__
+
+```ruby
+onPressed: (){
+//To Do Something
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
+
+
+
+
 
