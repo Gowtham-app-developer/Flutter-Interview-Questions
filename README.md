@@ -624,8 +624,25 @@ void main() {
   print(hyundai.name);
 }
 ```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
-:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
+## Final vs Const
 
+- If you never intend to change a variable then we have to declare using the keyword final or const.
+- The __final__ variable can be set only once.
+- The __const__ variable is a compile-time constant.(Const variables are implicitly final.) 
+
+__Example__
+
+```ruby
+void main() {
+  const int myCount = 3;
+  final  mDate = DateTime.now();
+  
+  print(myCount);
+  print(mDate);
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
 
