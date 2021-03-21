@@ -25,11 +25,12 @@
 | 15 | [Expanded Widget](README.md#expanded-widget) |
 | 16 | [SafeArea Widget](README.md#core-java) |
 | 18 | [Main Axis Alignment and Cross Axis Alignment](README.md#core-java) |
-| 19 | [Lifecycle of a ‘StatefulWidget’](README.md#core-java) |
+| 19 | [Lifecycle of a StatefulWidget](README.md#core-java) |
 | 20 | [InheritedWidget](README.md#core-java) |
 | 21 | [What is an App state?](README.md#core-java) |
 | 22 | [Routes & Navigation](README.md#routes--navigation) |
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
+| 24 | [What are packages and plugins in Flutter?](README.md#what-are-packages-and-plugins-in-flutter) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
