@@ -654,7 +654,7 @@ void main() {
 - It is a basic unit of Object Oriented Programming and represents the real life entities.
 - For example, we can take a Car -> Car is an object.
 
-__Creating the Class__
+__Example__
 
 ```ruby
 class car {
@@ -672,6 +672,40 @@ class car {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Constructor
 
+- Constructor is a block of code that initializes the newly created object.
+- Constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
+- It is called when an instance of the class is created. 
+- At the time of calling constructor, memory for the object is allocated in the memory.
+- It calls a default constructor if there is no constructor available in the class.
 
+__Example__
+
+```ruby
+void main(){
+  
+  Human mHuman = Human(mHeight: 10.0);
+  
+  print(mHuman.height);
+  
+  mHuman.talk('Hello World');
+ 
+}
+
+class Human{
+  
+  double height;
+  int age = 60;
+  
+  Human({double mHeight}){
+    height = mHeight;
+  }
+  
+  void talk(String mStringText){
+    print(mStringText);
+  }
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
