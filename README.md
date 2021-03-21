@@ -646,4 +646,32 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Classes and Objects
+
+- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
+- A class has two important things (i.e.) Properties and Methods.
+- Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+- It is a basic unit of Object Oriented Programming and represents the real life entities.
+- For example, we can take a Car -> Car is an object.
+
+__Creating the Class__
+
+```ruby
+class car {
+  
+  int numberOfDoors = 5;
+  
+  void drive(){
+    print('wheels start turning');
+  }
+    
+}
+```
+
+- where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+
+
 
