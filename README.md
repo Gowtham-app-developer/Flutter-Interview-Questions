@@ -754,6 +754,8 @@ class Monkey extends Human{
 - It can have abstract and non-abstract methods (method with the body).
 - In other words, Split up the functionality in to different Component.
 
+__Example__
+
 ```ruby
 abstract class Shape {
 	double area();
