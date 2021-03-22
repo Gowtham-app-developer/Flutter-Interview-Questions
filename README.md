@@ -36,6 +36,11 @@
 | 2 | [Anonymous Function](README.md#anonymous-function) |
 | 3 | [What is a difference between these operators "?? and ?.](README.md#what-is-a-difference-between-these-operators--and-) |
 | 4 | [Final vs Const](README.md#final-vs-const) |
+| 5 | [Classes and Objects](README.md#classes-and-objects) |
+| 6 | [Constructor](README.md#constructor) |
+| 7 | [Inheritance](README.md#inheritance) |
+| 8 | [Abstraction](README.md#abstraction) |
+
 
 ## Flutter
 
