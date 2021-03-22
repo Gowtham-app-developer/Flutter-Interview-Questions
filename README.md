@@ -21,7 +21,7 @@
 | 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#Difference-bw-main-function-and-the-runapp-function-in-flutter) |
 | 12 | [Stateful vs Stateless Widget](README.md#stateful-vs-stateless-widget) |
 | 13 | [Difference b/w final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
-| 14 | [Widget](README.md#widget) |
+| 14 | [Widget & Widget tree](README.md#widget--widget-tree) |
 | 15 | [Expanded Widget](README.md#expanded-widget) |
 | 16 | [SafeArea Widget](README.md#core-java) |
 | 18 | [Main Axis Alignment and Cross Axis Alignment](README.md#core-java) |
@@ -346,6 +346,7 @@ void main() {
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
 - For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc. 
 - __Widget tree__ is a structure that represents how our widgets are organized. 
+- Web pages have a DOM and Flutter have a Widget Tree.
 
 ![flutter-widgets](https://user-images.githubusercontent.com/78175168/111944398-8ead1980-8afd-11eb-80d5-af29c5e8b775.png)
 
