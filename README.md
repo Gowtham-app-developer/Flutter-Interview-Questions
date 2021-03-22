@@ -574,6 +574,16 @@ void task3(String resultData) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Global State 
+
+- Global state allows you to put data into a global object that can be accessed from any widget. 
+- No need to pass around state between different widgets.
+- Although global state allows your data to be shared and easily accessible from different widgets, it does not replace local state. 
+- They are both different and are used in different context.
+- There are several different ways of managing global state in Flutter and Some of them are BLoC, Redux, Inherited Widget, Inherited Model and Scoped Model.
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Dart
 
 - Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
