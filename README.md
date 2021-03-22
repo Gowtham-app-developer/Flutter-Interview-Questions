@@ -18,7 +18,7 @@
 | 8 | [Layout widgets](README.md#core-java) |
 | 9 | [Single-child layout widgets](README.md#single-child-layout-widgets) |
 | 10 | [Multi-child layout widgets](README.md#multi-child-layout-widgets) |
-| 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#difference-bw-main-function-and-the-runapp-function-in-flutter) |
+| 11 | [Difference b/w main() function and the runApp() function in Flutter?](README.md#Difference-bw-main-function-and-the-runapp-function-in-flutter) |
 | 12 | [Stateful vs Stateless Widget](README.md#stateful-vs-stateless-widget) |
 | 13 | [Difference b/w final and const in Flutter?](README.md#difference-between-final-and-const-in-flutter) |
 | 14 | [Widget](README.md#widget) |
@@ -321,7 +321,7 @@ class _CarState extends State<Car> {
 ```  
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
-## difference between final and const in Flutter?
+## Difference between final and const in Flutter?
 
 - If you never intend to change a variable then we have to declare using the keyword final or const.
 - In __const__ Value must be known at compile-time, const birthday = "2020/07/28" Can't be changed after initialized.
@@ -340,11 +340,15 @@ void main() {
 ```  
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
-## Widget
+## Widget & Widget tree
 
-- Widget is a description of a part of UI(i.e.) Widget is a way to declare and construct UI.
+- __Widget__ is a description of a part of UI(i.e.) Widget is a way to declare and construct UI.
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
-- For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc.   
+- For example, Button, text, image, list, Padding, Margin, Center, Layout rows and columns, etc. 
+- __Widget tree__ is a structure that represents how our widgets are organized. 
+
+![flutter-widgets](https://user-images.githubusercontent.com/78175168/111944398-8ead1980-8afd-11eb-80d5-af29c5e8b775.png)
+
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
