@@ -838,5 +838,32 @@ void main(){
   print(square.area);
 }
 ```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+## Static Modifier
+
+- Static means that you don't have to create an instance of the class to use the methods or variables associated with the class.
+- Static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
+- Static Keyword in Java is used for memory management mainly.
+
+```ruby
+void main() {
+
+ Square.workout(radius : 5.44);
+  
+}
+
+class Square {
+  
+  static int numberOfSides = 4;
+  
+  static void workout({double radius}){
+    double calculation = 2 * numberOfSides * radius;
+    print(calculation);
+  }
+  
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
 
