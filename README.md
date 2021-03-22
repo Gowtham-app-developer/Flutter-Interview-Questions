@@ -31,6 +31,7 @@
 | 22 | [Routes & Navigation](README.md#routes--navigation) |
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
 | 24 | [What are packages and plugins in Flutter?](README.md#what-are-packages-and-plugins-in-flutter) |
+| 25 | [Global State](README.md#global-state) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
