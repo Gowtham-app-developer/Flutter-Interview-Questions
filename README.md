@@ -587,6 +587,38 @@ void task3(String resultData) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Vysnc
+
+- Vsync basically keeps the track of screen, so that Flutter does not renders the animation when the screen is not being displayed.
+- We can create animations using SingleTickerProviderStateMixin or TickerProviderStateMixin.
+
+__Example__
+
+```ruby
+class _WelcomeScreenState extends State<WelcomeScreen>
+    with SingleTickerProviderStateMixin {
+  AnimationController controller;
+  Animation animation;
+
+  @override
+  void initState() {
+    super.initState();
+
+    controller = AnimationController(
+      duration: Duration(seconds: 1),
+      vsync: this,
+    );
+
+    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
+        .animate(controller);
+    controller.forward();
+    controller.addListener(() {
+      setState(() {});
+    });
+  }
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Dart
 
 - Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
