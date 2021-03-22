@@ -898,6 +898,45 @@ class Square {
   
 }
 ```
-:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
 
+## Mixins
+
+- In object-oriented programming languages, a Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.
+- In other words mixins are normal classes from which we can borrow methods(or variables) from without extending the class.
+- In dart we can do this by using the keyword with.
+
+__Example__
+
+```ruby
+void main() {
+
+ Animal().move();
+ Duck().fly();
+}
+
+class Animal {
+  
+  void move(){
+    print('Dynamic Value');
+  }
+}
+  
+mixin CanSwim {
+  void swim(){
+    print('Swim');
+  }
+}
+
+mixin CanFly {
+  void fly(){
+    print('Fly');
+  }
+}
+
+class Duck extends Animal with CanSwim, CanFly{
+ 
+}
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
