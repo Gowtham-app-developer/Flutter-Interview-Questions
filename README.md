@@ -783,3 +783,23 @@ void main(){
 }
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
+
+## Null safety in Dart
+
+- Null safety is a major new productivity feature that helps you avoid null exceptions, a class of bugs that are often hard to spot.
+- Dart is a type-safe language. 
+- This means that when you get a variable of some type, the compiler can guarantee that it is of that type. 
+- But type safety by itself doesn’t guarantee that the variable is not null.
+- You can use nullable types by appending a question mark ? to a variable type as of in the below example,
+
+__Example__
+
+```ruby
+void main() {
+  String? word;
+  
+  print(word); // prints null
+}
+```
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
