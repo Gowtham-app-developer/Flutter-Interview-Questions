@@ -41,7 +41,9 @@
 | 6 | [Constructor](README.md#constructor) |
 | 7 | [Inheritance](README.md#inheritance) |
 | 8 | [Abstraction](README.md#abstraction) |
-
+| 9 | [Null safety in Dart](README.md#null-safety-in-dart) |
+| 10 | [Computed Properties](README.md#computed-properties) |
+| 11 | [Static Modifier](README.md#static-modifier) |
 
 ## Flutter
 
