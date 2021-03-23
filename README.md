@@ -33,6 +33,7 @@
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
 | 24 | [What are packages and plugins in Flutter?](README.md#what-are-packages-and-plugins-in-flutter) |
 | 25 | [Global State](README.md#global-state) |
+| 26 | [Vysnc](README.md#vysnc) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
@@ -45,6 +46,7 @@
 | 9 | [Null safety in Dart](README.md#null-safety-in-dart) |
 | 10 | [Computed Properties](README.md#computed-properties) |
 | 11 | [Static Modifier](README.md#static-modifier) |
+| 12 | [Mixins](README.md#mixins) |
 
 ## Flutter
 
