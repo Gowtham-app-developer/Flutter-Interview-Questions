@@ -622,6 +622,49 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## Streams
+
+- Streams provide an asynchronous sequence of data.
+- By subscribing to the stream of meassages you are essentailly able to get the piece of data as they come in and as they get added to the stream.
+- Dart snapshots method gives us a stream and we can handle the stream using the widgets called StreamBuilder.
+- There are two kinds of streams Single Subscription and Broadcast.
+- __Single Subscription__ There could be a maximum of one listener to this stream.
+- __Broadcast__ There could be the infinite number of the listener to this stream.
+
+```ruby
+@override
+Widget build(BuildContext context) {
+  return StreamBuilder<QuerySnapshot>(
+    stream: _firestore.collection('messages').snapshots(),
+    builder: (context, snapshot) {
+      if (!snapshot.hasData) {
+        return Center(
+          child: CircularProgressIndicator(
+            backgroundColor: Colors.lightBlueAccent,
+          ),
+        );
+      });
+```
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)   
+
+## StreamBuilder
+
+- It will turn our snapshots of data in to actual widgets when the new data arrives from the Stream it will get reduild.
+- It will get done using the set state.
+- In other words, set state will called every time there's a new value in the stream.
+- It consists of two important things stream and builder.
+- __stream__ In particular, it's a stream of query snapshots and it knows when new data comes to rebuild itself.
+- __builder__ We have to provied the logic for the stream builder should actually do.
+
+## How stream and Future are different?
+
+- A stream is a combination of Futures
+- Future has only one response but Stream could have any number of Response.
+- But both works asynchronously and some potential value  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Dart
 
 - Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
