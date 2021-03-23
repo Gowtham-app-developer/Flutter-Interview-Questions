@@ -3,7 +3,7 @@
 :point_right: Click :star: if you like the project.   
 :point_right: Pull Request are highly appreciated.  
 :point_right: Follow me [@Gowtham R](https://twitter.com/Gowtham26730226) for new technical updates.  
-:point_right: For Course visit, this [Git Link](https://github.com/AndroidPillars/Flutter). 
+:point_right: For Flutter Course visit, this [GitHub Link](https://github.com/AndroidPillars/Flutter). 
 
 ## Table of Contents
 
