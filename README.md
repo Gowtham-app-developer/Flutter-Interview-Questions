@@ -34,6 +34,9 @@
 | 24 | [What are packages and plugins in Flutter?](README.md#what-are-packages-and-plugins-in-flutter) |
 | 25 | [Global State](README.md#global-state) |
 | 26 | [Vysnc](README.md#vysnc) |
+| 27 | [Stream](README.md#stream) |
+| 28 | [StreamBuilder](README.md#streambuilder) |
+| 29 | [How stream and Future are different?](README.md#how-stream-and-future-are-different) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
@@ -622,7 +625,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
-## Streams
+## Stream
 
 - Streams provide an asynchronous sequence of data.
 - By subscribing to the stream of meassages you are essentailly able to get the piece of data as they come in and as they get added to the stream.
@@ -656,6 +659,22 @@ Widget build(BuildContext context) {
 - It consists of two important things stream and builder.
 - __stream__ In particular, it's a stream of query snapshots and it knows when new data comes to rebuild itself.
 - __builder__ We have to provied the logic for the stream builder should actually do.
+
+```ruby
+@override
+Widget build(BuildContext context) {
+  return StreamBuilder<QuerySnapshot>(
+    stream: _firestore.collection('messages').snapshots(),
+    builder: (context, snapshot) {
+      if (!snapshot.hasData) {
+        return Center(
+          child: CircularProgressIndicator(
+            backgroundColor: Colors.lightBlueAccent,
+          ),
+        );
+      });
+```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
 
 ## How stream and Future are different?
 
