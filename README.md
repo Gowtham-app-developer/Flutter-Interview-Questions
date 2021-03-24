@@ -687,7 +687,9 @@ Widget build(BuildContext context) {
 
 ## Difference b/w @required vs assert
 
-- __@required__ is an annotation that will create a warning for you to remember that the named parameter is necessary for the class to work as expected.
+- __@required__ is an annotation that will create a warning for you to remember that the named parameter is necessary for the class to work as expected.  
+
+__Example__  
 
 ```ruby
 class Test {
@@ -700,7 +702,9 @@ class Test {
   });
 ```
 - __assert__ stops execution if a boolean condition is false.
-- It is mainly useful to check the programming errors like null and it will execute only in the debug mode.
+- It is mainly useful to check the programming errors like null and it will execute only in the debug mode.  
+
+__Example__
 
 ```ruby
 import 'package:meta/meta.dart';
@@ -1046,3 +1050,50 @@ class Duck extends Animal with CanSwim, CanFly{
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## List vs Map
+
+- Dart represents arrays in the form of List objects.
+- List is simply an ordered group of objects.  
+
+__Example__
+
+```ruby
+void main() {
+  
+  List<String> myList = [
+    'List1',
+    'List2',
+    'List3',
+    'List4'
+  ];
+  
+  print(myList[0]);
+  print(myList.indexOf('List1'));
+    
+}
+```
+- Dart Map is an object that stores data in the form of a key-value pair.
+- Each value is associated with its key, and it is used to access its corresponding value.
+- Both keys and values can be any type. In Dart Map, each key must be unique, but the same value can occur multiple times.  
+
+__Example__
+
+```rubyMap<String, int> phoneBook = {
+  'Android': 99998888,
+  'Flutter': 99998888,
+  'IOS': 99998888,
+};
+
+main(){
+  print(phoneBook['Android']);
+  
+  phoneBook['Android'] = 888888888;
+  print(phoneBook['Android']);
+  
+  print(phoneBook.length);
+  
+  print(phoneBook.keys);
+  
+  print(phoneBook.values);
+}
+```
