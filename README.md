@@ -37,6 +37,7 @@
 | 27 | [Stream](README.md#stream) |
 | 28 | [StreamBuilder](README.md#streambuilder) |
 | 29 | [How stream and Future are different?](README.md#how-stream-and-future-are-different) |
+| 30 | [Difference b/w @required vs assert](README.md#difference-between-required-vs-assert) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
