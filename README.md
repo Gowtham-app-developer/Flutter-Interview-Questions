@@ -685,7 +685,7 @@ Widget build(BuildContext context) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
-## @required vs assert
+## Difference b/w @required vs assert
 
 - __@required__ is an annotation that will create a warning for you to remember that the named parameter is necessary for the class to work as expected.
 
