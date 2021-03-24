@@ -1096,4 +1096,19 @@ main(){
   
   print(phoneBook.values);
 }
-```
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+## Generics
+
+- Generics are a way to improve type safety in our application (i.e.) We can use them to write code that is safer.
+
+```ruby
+void main() {
+  
+  var mPrimeNumbers = List<int>();
+  mPrimeNumbers.addAll([2, 3, 4, 5]);
+  mPrimeNumbers.add('Android'); //throws compile time error because of using type annotation  
+}
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
