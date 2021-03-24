@@ -641,26 +641,29 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
 ## Stream
 
-- Streams provide an asynchronous sequence of data.
+- Stream provide an asynchronous sequence of data.
 - By subscribing to the stream of meassages you are essentailly able to get the piece of data as they come in and as they get added to the stream.
 - Dart snapshots method gives us a stream and we can handle the stream using the widgets called StreamBuilder.
 - There are two kinds of streams Single Subscription and Broadcast.
-- __Single Subscription__ There could be a maximum of one listener to this stream.
+- __Single Subscription__ There could be a maximum of one listener to this stream and it listens to values coming out of the stream.
 - __Broadcast__ There could be the infinite number of the listener to this stream.
 
+
+__Example__
+
 ```ruby
-@override
-Widget build(BuildContext context) {
-  return StreamBuilder<QuerySnapshot>(
-    stream: _firestore.collection('messages').snapshots(),
-    builder: (context, snapshot) {
-      if (!snapshot.hasData) {
-        return Center(
-          child: CircularProgressIndicator(
-            backgroundColor: Colors.lightBlueAccent,
-          ),
-        );
-      });
+import 'dart:async';
+
+void main() {
+  final controller = StreamController();
+  
+  controller.sink.add(1);
+  controller.sink.add(2);
+  
+  controller.stream.listen((value){
+  print(value);
+  });
+}
 ```
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)   
