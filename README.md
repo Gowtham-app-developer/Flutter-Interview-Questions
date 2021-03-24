@@ -594,6 +594,16 @@ void task3(String resultData) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## What is Ticker, Animated Controller and Animation Value?
+
+- It is setup and controlled in three components(i.e.)Ticker, AnimationController and Animation / Tween.
+- __Ticker__ - It tells us Changes in value or colour(i.e.)  It triggers a new state so that we can render something different on screen.
+- __Animation Controller__ - It is the animation controler class which is going to tell the animation to start, to stop, to go forwards, to loop back, how long to animate for,   all of these things are determined when we create an animation controller and set it's properties.
+- __Animation Value__ - It is the thing that actually does the animation.
+- The animation values will go from 0 to 1 and by using the value, we can able to change  things such as height, size, color and opacity of a component.  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Vysnc
 
 - Vsync basically keeps the track of screen, so that Flutter does not renders the animation when the screen is not being displayed.
