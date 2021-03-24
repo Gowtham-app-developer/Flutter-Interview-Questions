@@ -33,11 +33,12 @@
 | 23 | [Futures, Asysnc and Await](README.md#futures-asysnc-and-await) |
 | 24 | [What are packages and plugins in Flutter?](README.md#what-are-packages-and-plugins-in-flutter) |
 | 25 | [Global State](README.md#global-state) |
-| 26 | [Vysnc](README.md#vysnc) |
-| 27 | [Stream](README.md#stream) |
-| 28 | [StreamBuilder](README.md#streambuilder) |
-| 29 | [How stream and Future are different?](README.md#how-stream-and-future-are-different) |
-| 30 | [Difference b/w @required vs assert](README.md#difference-bw-required-vs-assert) |
+| 26 | [What is Ticker, Animated Controller and Animation Value?](README.md#what-is-ticker-animated-controller-and-animation-value) |
+| 27 | [Vysnc](README.md#vysnc) |
+| 28 | [Stream](README.md#stream) |
+| 29 | [StreamBuilder](README.md#streambuilder) |
+| 30 | [How stream and Future are different?](README.md#how-stream-and-future-are-different) |
+| 31 | [Difference b/w @required vs assert](README.md#difference-bw-required-vs-assert) |
 |    | Dart |
 | 1 | [Dart](README.md#dart) |
 | 2 | [Anonymous Function](README.md#anonymous-function) |
@@ -51,6 +52,8 @@
 | 10 | [Computed Properties](README.md#computed-properties) |
 | 11 | [Static Modifier](README.md#static-modifier) |
 | 12 | [Mixins](README.md#mixins) |
+| 13 | [List vs Map](README.md#list-vs-map) |
+| 14 | [Generics](README.md#generics) |
 
 ## Flutter
 
