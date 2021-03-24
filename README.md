@@ -684,6 +684,46 @@ Widget build(BuildContext context) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
+## @required vs assert
+
+- __@required__ is an annotation that will create a warning for you to remember that the named parameter is necessary for the class to work as expected.
+
+```ruby
+class Test {
+  final String a; // say a is mandatory
+  final String b;
+
+  Test({
+    @required this.a, // annotate it using required
+    this.b,
+  });
+```
+- __assert__ stops execution if a boolean condition is false.
+- It is mainly useful to check the programming errors like null and it will execute only in the debug mode.
+
+```ruby
+import 'package:meta/meta.dart';
+
+class Product {
+  final int id;
+  final String name;
+  final int price;
+  final String size;
+  final String image;
+  final int weight;
+
+  const Product({
+    @required this.id,
+    @required this.name,
+    @required this.price,
+    this.size,
+    this.image,
+    this.weight,
+  }) : assert(id != null && name != null && price != null);
+}
+```  
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
 ## Dart
 
 - Dart is an open-source, general-purpose, object-oriented programming language with C-style syntax developed by Google in 2011.
