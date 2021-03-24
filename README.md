@@ -426,9 +426,22 @@ SafeArea(
 
 ![omg_one](https://user-images.githubusercontent.com/78175168/111883311-83180080-89e0-11eb-8a98-059c6d640ad0.png)
 
-:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
 ## Lifecycle of a StatefulWidget
+
+- Only StatefulWidget hold state and the Lifecyle of it is as follows,
+- __createState () :__ When we build a new StatefulWidget, this one calls createState() right away and this override method must exist
+- __initState() :__ it is the first method called after the Widget is created.This is our equivalent to onCreate() and viewDidLoad()
+- __didChangeDependencies() :__ This method is called immediately after initState() on the first time the widget is built
+- __build() :__ called right after didChangeDependencies(). All the GUI is render here and will be called every single time the UI needs to be render
+- __didUpdateWidget() :__ it’ll be called once the parent Widget did a change and needs to redraw the UI
+- __deactivate() :__ framework calls this method whenever it removes this State object from the tree
+- __dispose() :__ is called when this object and its State is removed from the tree permanently and will never build again.
+
+![life_cycle](https://user-images.githubusercontent.com/78175168/112377615-fc2e9500-8d0b-11eb-9a4d-fdc099b99a71.png)  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
 ## Routes & Navigation
 
