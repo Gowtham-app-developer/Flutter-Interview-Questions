@@ -1017,7 +1017,7 @@ void main(){
 
 - Static means that you don't have to create an instance of the class to use the methods or variables associated with the class.
 - Static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
-- Static Keyword in Java is used for memory management mainly.
+- Static Keyword is used for memory management mainly.
 
 ```ruby
 void main() {
