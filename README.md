@@ -80,6 +80,7 @@
 - MaterialApp is a predefined class in a flutter.
 - It is likely the main or core component of flutter.
 - It contains widgets that are used for the material design of an application.
+- By Default Material Design is built into Flutter but you also find Apple-styled(Cupertino) widgets.
 
 __Example__
 
