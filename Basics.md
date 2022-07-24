@@ -32,7 +32,7 @@ void main(){
 
 // This is the another type of comment line
 ```
-:arrow_up: [__Back to Top__](Basics.md#table-of-contents 
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Variable Declration
 
@@ -67,7 +67,9 @@ void main() {
     // NOTE: All data types in Dart are Objects.
     // Therefore, their initial value is by default 'null'
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
+
 ## Literals and String Interpolation
 
 ```ruby
@@ -99,7 +101,41 @@ void main() {
     print("The sum of $l and $b is ${l + b}");
     print("The area of rectangle with length $l and breadth $b is ${l * b}");
 }
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## If and Else
+
+```ruby
+void main() {
+    // TODO IF and ELSE Statements
+    var salary = 50000;
+    if (salary > 50000) {
+        print("You got promotion. Congratulations !");
+    } else {
+        print("You need to work hard !");
+    }
+  
+    // TODO IF ELSE IF Ladder statements
+    var marks = 70;
+    if (marks >= 90 && marks < 100) {
+        print("A+ grade");
+    } else if (marks >= 80 && marks < 90) {
+        print("A grade");
+    } else if (marks >= 70 && marks < 80) {
+        print("B grade");
+    } else if (marks >= 60 && marks < 70) {
+        print("C grade");
+    } else if (marks > 30 && marks < 60) {
+        print("D grade");
+    } else if (marks >= 0 && marks < 30) {
+        print("You have failed");
+    } else {
+        print("Invalid Marks. Please try again !");
+    }
+}
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to know
 
