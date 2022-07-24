@@ -32,4 +32,21 @@ void main(){
 
 // This is the another type of comment line
 ```
-:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents 
+
+## Variable Declration
+
+```ruby
+void main(){
+  
+  String mValue = "Hello World"; // Where String - Data Type, mValue - Variable Name and "Hello World" - Value
+  
+  print(mValue);
+  
+}
+```
+
+## Need to know
+
+- Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
+- All the Data Types in Dart are Objects.Therefore, Values are default by null.
