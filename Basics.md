@@ -137,6 +137,32 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Ternary Operator
+
+```ruby
+void main() {
+    // TODO Ternary Operator
+  
+    // condition ? exp1 : exp2
+    // If condition is true, evaluates expr1 (and returns its value);
+    // otherwise, evaluates and returns the value of expr2.
+    int a = 5;
+    int b = 10;
+    int smallNumber = a < b ? a : b;
+  
+    print("$smallNumber is smaller");
+  
+    // exp1 ?? exp2
+    // If expr1 is non-null, returns its value; otherwise, evaluates and
+    // returns the value of expr2.
+    String name = null;
+    String nameToPrint = name ?? "Guest";
+  
+    print(nameToPrint);
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
