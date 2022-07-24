@@ -59,12 +59,45 @@ void main() {
     // TODO Boolean
     bool isValid = true;
     var isAlive = false;
+    
     print(score);
     print(exponents);
     print(isAlive);
   
     // NOTE: All data types in Dart are Objects.
     // Therefore, their initial value is by default 'null'
+}
+```
+## Literals and String Interpolation
+
+```ruby
+void main() {
+
+    // TODO Literals - It is the Values where you can assign them to a Variables.
+    String s1 = 'Hello World'; // Where Hello World is the Literals 
+    
+    // TODO Various ways to define String Literals in Dart
+    String s2 = 'Hello World';
+    String s3 = "Hello World";
+    String s4 = 'It\'s easy';
+    String s5 = "It's easy";
+    String s6 = 'Hello my Self Gauthy completed B.E in Electronics and Communication'
+    'Engineering';
+   
+    print(s6);
+   
+   // String Interpolation
+    String name = "Hello World";
+   
+    print("My name is " + name); // Appending the name is just like a bad pratice 
+    print("My name is $name"); // String Interpolation
+    print("The number of characters in String Kevin is ${name.length}");
+    
+    int l = 20;
+    int b = 10;
+    
+    print("The sum of $l and $b is ${l + b}");
+    print("The area of rectangle with length $l and breadth $b is ${l * b}");
 }
 ```
 
