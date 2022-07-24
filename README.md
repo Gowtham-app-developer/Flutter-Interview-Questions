@@ -824,11 +824,16 @@ void main() {
 
 ## Final vs Const
 
-- If you never intend to change a variable then we have to declare using the keyword final or const.
-- The __final__ variable can be set only once.
-- The __const__ variable is a compile-time constant.(Const variables are implicitly final.) 
+- If you never want to change a variable then we have to declare using the keyword final or const.
+- The __final__ variable can be set only once and is initialized when accessed.
+- The __const__ variable are implicitly final but it is a compile-time constant (i.e.) It is initialized during Compilation.
 
-__Example__
+__Need to Know__
+
+- Instance variable can be final but cannot be const.
+- If we want a Constant at class level then make it as static const
+
+__Example 1__
 
 ```ruby
 void main() {
@@ -839,6 +844,27 @@ void main() {
   print(mDate);
 }
 ```
+
+__Example 2__
+
+```ruby
+void main() {
+    // TODO final
+    final mCityName = 'TamilNadu';
+    // name = 'Peter'; // Throws an error
+  
+    // TODO const
+    const PI = 3.14;
+    const double gravity = 9.8;
+}
+
+class Circle {
+    final color = 'Red';
+    static
+    const PI = 3.14; // If we want a Constant at class level then make it as static const
+}
+```
+
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
 
 ## Classes and Objects
