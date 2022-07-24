@@ -108,6 +108,7 @@ void main() {
 
 ```ruby
 void main() {
+
     // TODO IF and ELSE Statements
     var salary = 50000;
     if (salary > 50000) {
@@ -141,6 +142,7 @@ void main() {
 
 ```ruby
 void main() {
+
     // TODO Ternary Operator
   
     // condition ? exp1 : exp2
