@@ -71,4 +71,4 @@ void main() {
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
-- All the Data Types in Dart are Objects.Therefore, Values are default by null.
+- All the Data Types in Dart are Objects and therefore Values are default by null.
