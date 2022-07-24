@@ -163,6 +163,34 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Switch Case Statement
+
+```ruby
+void main() {
+  
+    // TODO Switch Case Statements: It is Applicable only for 'int' and 'String'
+    
+  	String grade = 'A';
+    switch (grade) {
+        case 'A':
+            print("Excellent grade of A");
+            break;
+        case 'B':
+            print("Very Good !");
+            break;
+        case 'C':
+            print("Good enough... But work hard");
+            break;
+        case 'F':
+            print("You have failed..");
+            break;
+        default:
+            print("Invalid Grade..");
+    }
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
