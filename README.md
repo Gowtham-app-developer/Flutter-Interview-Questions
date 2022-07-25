@@ -66,12 +66,19 @@
 
 ## Why Flutter
 
-- It is a single code base.
-- Dart is a powerful language that is quite easy to work and is very similar to Oops and we can learn easily.
-- We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
+- Dart is a strongly typed language (Statically Typed) Object Oriented Language developed by Google which is quite easy to work.
+- By Using single code base we can build Android, IOS mobile Apps and even web application that run on your desktop.
 - Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.  
-- Hot Reload -> Instant run with in a Second.
+- For Developers, It supports Faster compilation during development (i.e.) It supports JIT(Just In Time) Compilation -> Hot Reload -> Instant run with in a Second.
+- For End Uers, When App is Released it uses AOT (Ahead Of Time) Compilation which helps in faster execution on our devices.
+- It gives similar experience compared to Native Apps like Android and IOS.
 - It's a Open source.  
+
+__Need to Know__
+
+- Drawbacks of Native App -> Have to Create Two Seperate Apps for both Platforms (i.e.) Two Seperate Code base which difficult to Maintain.
+- Drawbacks of Web App -> The performance of this application are not so native (i.e.) It makes the user experience slightly poor and it doesn't support many android and IOS features. 
+- Drawbacks of other Hybrid Application (Xamarin, Ionic, Cordova and ReactNative) -> Lacking lot of Features in this Framework. 
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
