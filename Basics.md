@@ -193,6 +193,27 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## For Loop
+
+```ruby
+void main() {
+    // TODO FOR Loop
+    // Finding the even numbers between 1 to 10
+    for (int i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+            print(i);
+        }
+    }
+  
+    // TODO for ..in loop  
+    // TODO List is just a collection of data type  
+    List planetList = ["Mercury", "Venus", "Earth", "Mars"];
+    for (String planet in planetList) {
+        print(planet);
+    }
+}
+```
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
