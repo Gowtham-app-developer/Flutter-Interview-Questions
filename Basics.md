@@ -4,7 +4,14 @@
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Hello World](Basics.md#adding-comment-line) |
+| 1 | [Hello World](Basics.md#hello-world) |
+| 2 | [ Adding Comment Line](Basics.md#adding-comment-line) |
+| 3 | [Variable Declration](Basics.md#variable-declration) |
+| 4 | [Literals and String Interpolation](Basics.md#literals-and-string-interpolation) |
+| 5 | [If and Else](Basics.md#if-and-else) |
+| 6 | [Ternary Operator](Basics.md#ternary-operator) |
+| 7 | [Switch Case Statement](Basics.md#switch-case-statement) |
+| 8 | [For Loop](Basics.md#for-loop) |
 
 ## Hello World
 
