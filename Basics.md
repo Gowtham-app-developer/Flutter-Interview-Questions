@@ -16,13 +16,13 @@
 ## Hello World
 
 ```ruby
-// TODO void main is the Entry Function
+// TODO void main -> It is the Entry Function
 
 void main(){
   
   print("Hello World");
   
-  print(4-3); // Performing Arithematic Operations
+  print(4-3); // TODO Performing Arithematic Operations
   
   print(false);
   
@@ -46,12 +46,12 @@ void main(){
 ```ruby
 void main() {
   
-    String mValue = "Hello World"; // Where String - Data Type, mValue - Variable Name and "Hello World" - Value
+    String mValue = "Hello World"; // TODO Where String - Data Type, mValue - Variable Name and "Hello World" - Value
     print(mValue);
   
     // TODO Numbers: int
     int score = 25;
-    var count = 50; // It is inferred as integer automatically by compiler
+    var count = 50; // TODO It is inferred as integer automatically by compiler
     int hexValue = 0xEADEBAEE;
   
     // TODO Numbers: double
@@ -83,7 +83,7 @@ void main() {
 void main() {
 
     // TODO Literals - It is the Values where you can assign them to a Variables.
-    String s1 = 'Hello World'; // Where Hello World is the Literals 
+    String s1 = 'Hello World'; // TODO Where Hello World is the Literals 
     
     // TODO Various ways to define String Literals in Dart
     String s2 = 'Hello World';
@@ -95,11 +95,11 @@ void main() {
    
     print(s6);
    
-   // String Interpolation
+   // TODO String Interpolation
     String name = "Hello World";
    
-    print("My name is " + name); // Appending the name is just like a bad pratice 
-    print("My name is $name"); // String Interpolation
+    print("My name is " + name); // TODO Appending the name is just like a bad pratice 
+    print("My name is $name"); // TODO String Interpolation
     print("The number of characters in String Kevin is ${name.length}");
     
     int l = 20;
@@ -223,6 +223,7 @@ void main() {
     }
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to know
 
