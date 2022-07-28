@@ -16,9 +16,7 @@
 ## Hello World
 
 ```ruby
-// TODO void main -> It is the Entry Function
-
-void main(){
+void main(){ // TODO void main -> It is the Entry Function
   
   print("Hello World");
   
