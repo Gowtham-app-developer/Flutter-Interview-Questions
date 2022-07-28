@@ -194,6 +194,9 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## For Loop
+- Initialize -> Condition Check -> Code Execute -> Increment 
+
+__Example__
 
 ```ruby
 void main() {
