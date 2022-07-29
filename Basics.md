@@ -12,6 +12,8 @@
 | 6 | [Ternary Operator](Basics.md#ternary-operator) |
 | 7 | [Switch Case Statement](Basics.md#switch-case-statement) |
 | 8 | [For Loop](Basics.md#for-loop) |
+| 9 | [While Loop](Basics.md#while-loop) |
+| 10 | [Do While Loop](Basics.md#do-while-loop) |
 
 ## Hello World
 
