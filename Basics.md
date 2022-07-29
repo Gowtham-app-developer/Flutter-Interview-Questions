@@ -281,6 +281,23 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Continue Keyword
+
+```ruby
+void main() {
+  
+    myLoop: for (int i = 1; i <= 4; i++) { 
+        for (int j = 1; j <= 4; j++) { // TODO You can give the name for the inner for Loop too
+            if (i == 2 && j == 2) {
+                continue myLoop; // TODO continue will skip the code of the nearest for Loop
+            }
+            print("$i  $j");
+        }
+    }
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
