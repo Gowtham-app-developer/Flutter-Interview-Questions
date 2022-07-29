@@ -243,6 +243,26 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Do While Loop
+- Initialize ->  Code Execute -> Increment -> Condition Check
+
+```ruby
+void main() {
+
+    // TODO Finding the even numbers between 1 to 10
+    
+    int i = 1;
+    do {
+        if (i % 2 == 0) {
+            print(i);
+        }
+        i++;
+    } while (i <= 10);
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
