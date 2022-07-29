@@ -264,6 +264,22 @@ void main() {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Break Keyword
+
+```ruby
+void main() {
+  
+    outerLoop: for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= 4; j++) {
+            print("$i $j");
+            if (i == 2 && j == 2) {
+                break outerLoop; // TODO outerLoop - We can give it as any name
+            }
+        }
+    }
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to know
 
