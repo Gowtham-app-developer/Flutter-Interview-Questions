@@ -14,15 +14,21 @@
 | 8 | [For Loop](Basics.md#for-loop) |
 | 9 | [While Loop](Basics.md#while-loop) |
 | 10 | [Do While Loop](Basics.md#do-while-loop) |
+| 11 | [Break Keyword](Basics.md#break-keyword) |
+| 12 | [Continue Keyword](Basics.md#continue-keyword) |
+| 13 | [Function](Basics.md#function) |
+| 14 | [Function as Expression](Basics.md#function-as-expression) |
+| 15 | [Function [Optional Positional Parameters]](Basics.md#function-optional-positional-parameters) |
 
 ## Hello World
 
 ```ruby
-void main(){ // TODO void main -> It is the Entry Function
+void main(){ // TODO void main() is the Entry Function
   
   print("Hello World");
   
-  print(4-3); // TODO Performing Arithematic Operations
+  
+  print(4-3); // TODO Performing some Arithematic Operations
   
   print(false);
   
