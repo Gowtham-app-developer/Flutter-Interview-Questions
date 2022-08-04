@@ -201,9 +201,8 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## For Loop
-- Initialize -> Condition Check -> Code Execute -> Increment 
 
-__Example__
+- Initialize -> Condition Check -> Code Execute -> Increment 
 
 ```ruby
 void main() {
@@ -227,6 +226,7 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## While Loop
+
 - Initialize -> Condition Check -> Code Execute -> Increment 
 
 ```ruby
@@ -246,6 +246,7 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Do While Loop
+
 - Initialize ->  Code Execute -> Increment -> Condition Check
 
 ```ruby
@@ -297,6 +298,42 @@ void main() {
 }
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Function
+
+- Collection of Statements grouped together to perform an Operation.
+- Functions in Dart are Objects (i.e.) Functions can be assigned to a variable or we can passed as a parameter to other functions.
+- All Functions in Dart returns a Value and if no return value is specified then it returns null.
+- Defining return type is optional but is recommended as per code convention
+
+```ruby
+void main() {
+
+// TODO Define a Function
+// TODO Pass parameters to a Function
+// TODO Return value from a Function
+// TODO Test that by default a Function returns null
+  
+	findPerimeter(4, 2);
+
+	int rectArea = getArea(10, 5); 
+	print("The area is $rectArea");
+  
+}
+
+void findPerimeter(int length, int breadth) {
+
+	int perimeter = 2 * (length + breadth);
+	print("The perimeter is $perimeter");
+}
+
+// TODO int - Return Type, getArea - Function Name, (int length, int breadth) - Parameter
+int getArea(int length, int breadth) {
+
+	int area = length * breadth;
+	return area;
+}
+```
 
 ## Need to know
 
