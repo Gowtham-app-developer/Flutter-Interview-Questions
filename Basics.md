@@ -356,6 +356,38 @@ void findPerimeter(int length, int breadth) => print("The perimeter is ${2 * (le
 int getArea(int length, int breadth) => length * breadth;
 ```  
 
+## Function [Optional Positional Parameters]
+
+```ruby
+void main() {
+
+  // TODO Required Parameters
+  // TODO Optional Positional Parameters
+  
+  printCities("New York", "New Delhi", "Sydney");
+	print("");
+
+	printCountries("USA");  // You can skip the Optional Positional Parameters
+  
+}
+
+// TODO Required Parameters
+void printCities(String name1, String name2, String name3) {
+
+	print("Name 1 is $name1");
+	print("Name 2 is $name2");
+	print("Name 3 is $name3");
+}
+
+// TODO Optional Positional Parameters
+void printCountries(String name1, [String name2 = "Default", String name3= "Default"]) {
+
+	print("Name 1 is $name1");
+	print("Name 2 is $name2");
+	print("Name 3 is $name3");
+}
+```  
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
