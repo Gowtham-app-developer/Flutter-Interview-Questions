@@ -334,6 +334,7 @@ int getArea(int length, int breadth) {
 	return area;
 }
 ``` 
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Function as Expression
 
@@ -355,6 +356,7 @@ void findPerimeter(int length, int breadth) => print("The perimeter is ${2 * (le
 
 int getArea(int length, int breadth) => length * breadth;
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Function [Optional Positional Parameters]
 
@@ -387,6 +389,13 @@ void printCountries(String name1, [String name2 = "Default", String name3= "Defa
 	print("Name 3 is $name3");
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Function [Named Parameters]
+
+```ruby
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to know
 
