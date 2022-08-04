@@ -333,7 +333,28 @@ int getArea(int length, int breadth) {
 	int area = length * breadth;
 	return area;
 }
-```
+``` 
+
+## Function as Expression
+
+```ruby
+void main() {
+
+// TODO "=>" is known as FAT ARROW
+// TODO "=> expression" is a SHORT HAND SYNTAX for { return expression; }
+// TODO Example "=> length * breadth" is SHORT HAND SYNTAX for { return length * breadth; }
+  
+	findPerimeter(6, 2);
+
+	int rectArea = getArea(15, 5); 
+	print("The area is $rectArea");
+  
+}
+
+void findPerimeter(int length, int breadth) => print("The perimeter is ${2 * (length + breadth)}");
+
+int getArea(int length, int breadth) => length * breadth;
+```  
 
 ## Need to know
 
