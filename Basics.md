@@ -390,7 +390,7 @@ void printCities(String name1, String name2, String name3) {
 }
 
 // TODO Optional Positional Parameters
-void printCountries(String name1, [name2, String name3= "Default"]) {
+void printCountries(String name1, [name2, name3]) {
 
 	print("Name 1 is $name1");
 	print("Name 2 is $name2");
@@ -399,11 +399,40 @@ void printCountries(String name1, [name2, String name3= "Default"]) {
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-## Function [Named Parameters]
+## Function [Optional Named Parameters]
 
 ```ruby
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Function [Optional Default Parameters]
+
+```ruby
+// TODO Optional Default Parameters
+
+void main() {
+
+	findVolume(10); // TODO Default value comes into action
+	print("");
+
+	findVolume(10, breadth: 5, height: 30); // TODO Overrides the old value with new one
+	print("");
+
+	findVolume(10, height: 30, breadth: 5); // TODO Making use of Named Parameters with Default values
+}
+
+
+findVolume(int length, {int breadth = 2, int height = 20}) {
+
+	print("Lenght is $length");
+	print("Breadth is $breadth");
+	print("Height is $height");
+
+	print("Volume is ${length * breadth * height}");
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 
 ## Need to know
 
