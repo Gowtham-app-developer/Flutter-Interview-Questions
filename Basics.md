@@ -312,6 +312,8 @@ void main() {
 - All Functions in Dart returns a Value and if no return value is specified then it returns null.
 - Defining return type is optional but is recommended as per code convention
 
+__Example__
+
 ```ruby
 void main() {
 
