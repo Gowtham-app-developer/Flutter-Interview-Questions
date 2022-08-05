@@ -433,6 +433,12 @@ findVolume(int length, {int breadth = 2, int height = 20}) {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Exception Handling 
+
+- The Exception Handling is a mechanism used to handle the runtime errors so that normal flow of the application can be maintained.
+- It can be handled using four keyword Types -> try, catch, finally and on.
+- Some Common Exception Types -> Format Exception, IO Exception, Timeout Exception and 
+
 
 ## Need to know
 
