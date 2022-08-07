@@ -158,8 +158,8 @@ void main() {
 
     // TODO Ternary Operator
   
-    // condition ? exp1 : exp2
-    // If condition is true, evaluates expr1 (and returns its value);
+    // TODO condition ? exp1 : exp2
+    // TODO If condition is true, evaluates expr1 (and returns its value);
     // otherwise, evaluates and returns the value of expr2.
     int a = 5;
     int b = 10;
@@ -167,8 +167,8 @@ void main() {
   
     print("$smallNumber is smaller");
   
-    // exp1 ?? exp2
-    // If expr1 is non-null, returns its value; otherwise, evaluates and
+    // TODO exp1 ?? exp2
+    // TODO If expr1 is non-null, returns its value; otherwise, evaluates and
     // returns the value of expr2.
     String name = null;
     String nameToPrint = name ?? "Guest";
@@ -449,7 +449,7 @@ findVolume(int length, {int breadth = 2, int height = 20}) {
 void main() {
 
 	print("CASE 1");
-	// CASE 1: When you know the exception to be thrown, use ON Clause
+	// TODO CASE 1: When you know the exception to be thrown, use ON Clause
 	try {
 		int result = 12 ~/ 4; // where ~/ means divide to integer & return results in the form of Integer
 		print("The result is $result");
@@ -458,7 +458,7 @@ void main() {
 	}
 
 	print(""); print("CASE 2");
-	// CASE 2: When you do not know the exception use CATCH Clause
+	// TODO CASE 2: When you do not know the exception use CATCH Clause
 	try {
 		int result = 12 ~/ 0;
 		print("The result is $result");
@@ -467,7 +467,7 @@ void main() {
 	}
 
 	print(""); print("CASE 3");
-	// CASE 3: Using STACK TRACE to know the events occurred before Exception was thrown
+	// TODO CASE 3: Using STACK TRACE to know the events occurred before Exception was thrown
 	try {
 		int result = 12 ~/ 0;
 		print("The result is $result");
@@ -477,7 +477,7 @@ void main() {
 	}
 
 	print(""); print("CASE 4");
-	// CASE 4: Whether there is an Exception or not, FINALLY Clause is always Executed
+	// TODO CASE 4: Whether there is an Exception or not, FINALLY Clause is always Executed
 	try {
 		int result = 12 ~/ 3;
 		print("The result is $result");
@@ -488,7 +488,7 @@ void main() {
 	}
 
 	print(""); print("CASE 5");
-	// CASE 5: Custom Exception (i.e.) Creating an Exception manually
+	// TODO CASE 5: Custom Exception (i.e.) Creating an Exception manually
 	try {
     throwException();
   } on CustomException {
