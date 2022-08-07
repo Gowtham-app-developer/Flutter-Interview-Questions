@@ -1500,3 +1500,48 @@ class Circle {
 	}
 }
 ```
+## Lambda Expression
+
+- Lambda Expression is definition of a Function without a name (i.e.) Nameless Function.
+- It is also known as anonymous Function or lambda.
+
+__Need to Know__
+
+- A Function in Dart is an Object.
+
+```ruby
+void main() {
+
+  // TODO NOTE: A function in Dart is object
+	// TODO Defining Lambda: 1st way
+	Function addTwoNumbers = (int a, int b) {
+		var sum = a + b;
+		print(sum);
+	};
+
+	var multiplyByFour = (int number) {
+		return number * 4;
+	};
+
+	// TODO Defining Lambda: 2nd way: Function Expression: Using Short Hand Syntax or FAT Arrow ( '=>' )
+	Function addNumbers = (int a, int b) => print(a + b);
+
+	var multiplyFour = (int number) => number * 4;
+
+
+	// TODO  Calling lambda function
+	addTwoNumbers(2, 5);
+	print(multiplyByFour(5));
+
+	addNumbers(3, 7);
+	print(multiplyFour(10));
+}
+
+
+// TODO Example of Normal function
+void addMyNumbers(int a, int b) {
+
+	var sum = a + b;
+	print(sum);
+}
+```
