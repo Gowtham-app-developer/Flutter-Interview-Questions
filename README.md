@@ -976,7 +976,7 @@ class Human{
 }
 ```  
 
-__Example__
+__Example 2__
 
 ```ruby
 void main() {
