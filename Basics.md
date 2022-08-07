@@ -505,6 +505,36 @@ throwException() {
   throw new CustomException('This is my custom exception');
 }
 ```
+## Getter and Setter
+
+```ruby
+void main() {
+
+  var student = Student();
+  
+  // TODO Default Getter and Setter
+  student.name = "Gauthy"; // TODO Calling default Setter to set value
+  print(student.name); // TODO Calling default Getter to get value
+
+  student.percentage = 438.0;   // Calling Custom Setter to set value
+  print(student.percentage);    // Calling Custom Getter to get value
+}
+
+class Student {
+
+  // TODO Instance Variable with default Getter and Setter
+  String name = "Test"; 
+
+  // TODO Private Instance Variable
+  double _percent = 0.00; // TODO _ indicates the Private Instance Variable for its own library
+
+  // TODO Instance variable with Custom Setter
+  void set percentage(double marksSecured) => _percent = (marksSecured / 500) * 100;
+  
+  // TODO Instance variable with Custom Getter
+  double get percentage => _percent;
+}
+```  
 
 ## Need to know
 
