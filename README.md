@@ -919,7 +919,7 @@ void main() {
 	student2.sleep();
 }
 
-// Define states (properties) and behavior of a Student
+// TODO Defining states(properties) and behavior of a Student
 class Student {
 	int id = -1; // TODO Instance or Field Variable, default value is -1
 	String? name; // TODO Instance or Field Variable, default value is null
