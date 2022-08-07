@@ -1393,3 +1393,56 @@ class Dog extends Animal {
 	}
 }
 ```
+## Interface
+
+- Dart does not have any special syntax to declare interface.
+- An Interface in Dart is a normal class.
+- An Interface is used when you need concrete implementation of all it's function with in it's sub class.
+- It's Mandatory to override all methods in the implementing class.
+- We can implement multiple classses but we cannot extend multiple classes during Inheritance.
+
+```ruby
+void main() {
+
+	var tv = Television();
+	tv.volumeUp();
+	tv.volumeDown();
+}
+
+class Remote {
+
+	void volumeUp() {
+		print("+++++++++");
+	}
+
+	void volumeDown() {
+		print("---------");
+	}
+}
+
+class AnotherClass {
+
+	void justAnotherMethod(){
+		// TODO Code
+	}
+
+}
+
+// TODO Here Remote and AnotherClass acts as Interface
+class Television implements Remote, AnotherClass {
+
+	void volumeUp() {
+    
+// super.volumeUp(); // TODO Not allowed to call super while implementing a class as Interface
+		print("+++++++++");
+	}
+
+	void volumeDown() {
+		print("---------");
+	}
+
+	void justAnotherMethod() {
+		print("xxxxxxxxxxxxxx");
+	}
+}
+```
