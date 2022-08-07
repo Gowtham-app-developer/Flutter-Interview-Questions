@@ -1446,3 +1446,57 @@ class Television implements Remote, AnotherClass {
 	}
 }
 ```
+## Static Keyword
+
+- It is a Non Access Modifier applicable for Variables and Methods.
+- We don't need to create an instance of a Class to use methods or Variables.
+- It is mainly Used for Memory Management.
+
+__Need to Know__
+
+- Static Variables are also known as Class Variables.
+- Static Methods are also known as Class Methods.
+- Static Variables are lazily Initialized (i.e.) they are not initialized until we used in our code.
+- We can't able to use the 'this' keyword with in a Static Method.
+- From a Static method We can only access static methods and Variables.
+
+```ruby
+void main() {
+
+	var circle1 = Circle();
+  //	circle1.pi; // TODO consumes 4 bytes
+
+	var circle2 = Circle();
+  //	circle2.pi; // TODO consumes 4 bytes
+
+	// TODO So Totally 8 bytes(i.e.)Waste of extra 4 bytes
+
+	Circle.pi;  // TODO 4 bytes
+	Circle.pi;  // TOD ONo more memory will be allocated .
+
+  //	circle.calculateArea();
+ 	print(Circle.pi);       // TODO Syntax to call Static Variable
+  Circle.calculateArea(); // TODO Syntax to call Static Method
+}
+
+class Circle {
+
+	static const double pi = 3.15;
+	static int maxRadius = 5;
+
+	String? color;
+
+	static void calculateArea() {
+		print("Some code to calculate area of Circle");
+    // myNormalFunction(); // TODO Not allowed to call instance functions
+    // this.color;         // TODO You cannot use 'this' keyword and even cannot access Instance variables
+	}
+
+	void myNormalFunction() {
+		calculateArea();
+		this.color = "Red";
+		print(pi);
+		print(maxRadius);
+	}
+}
+```
