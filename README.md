@@ -901,7 +901,6 @@ class car {
 __Example 2__
 
 ```ruby
-```ruby
 void main() {
 
 	var student1 = Student(); // TODO One Object, student1 is reference variable
@@ -933,7 +932,6 @@ class Student {
 		print("${this.name} is now sleeping");
 	}
 }
-```
 ```
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
