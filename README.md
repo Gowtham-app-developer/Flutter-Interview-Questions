@@ -1109,10 +1109,11 @@ class Cat extends Animal { // TODO Cat is Child class or sub class, Animal is su
 ## Abstraction
 
 - Abstraction is a process of hiding the implementation details and showing only functionality to the user.
-- It can have abstract and non-abstract methods (method with the body).
-- In other words, Split up the functionality in to different Component.
+- Abstract Classes are partially defined classes which are declared using abstract keywords.
+- It can have both abstract and non-abstract methods (method with the body).
+- If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
 
-__Example__
+__Example 1__
 
 ```ruby
 abstract class Shape {
@@ -1128,6 +1129,50 @@ class Square implements Shape{
 void main(){
 	final square = Square(side: 10.0);
   print(square.area());
+}
+```  
+
+__Example 2__
+
+```ruby
+void main() {
+
+//	var shape = Shape();  // TODO Error (i.e.) We Cannot instantiate Abstract Class
+
+	var rectangle = Rectangle();
+	rectangle.draw();
+
+	var circle = Circle();
+	circle.draw();
+}
+
+
+abstract class Shape {
+
+	// TODO we can define yur Instance variable if needed
+	int x;
+	int y;
+
+  // TODO Abstract Method
+	void draw();        
+
+	void myNormalFunction() {
+		// Some code
+	}
+}
+
+class Rectangle extends Shape {
+
+	void draw() {
+		print("Drawing Rectangle.....");
+	}
+}
+
+class Circle extends Shape {
+
+	void draw() {
+		print("Drawing Circle.....");
+	}
 }
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
