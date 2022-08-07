@@ -437,7 +437,7 @@ findVolume(int length, {int breadth = 2, int height = 20}) {
 
 - The Exception Handling is a mechanism used to handle the runtime errors so that normal flow of the application can be maintained.
 - It can be handled using four keyword Types -> try, catch, finally and on.
-- Some Common Exception Types -> Format Exception (Datatype doesn't have an expected expected format, IO Exception, Timeout Exception (Schedule timeout happens while waiting for an async result and Integer Division By ZeroException (Thrown when a number is divided by zero)
+- Some Common Exception Types -> Format Exception (Datatype doesn't have an expected expected format), IO Exception, Timeout Exception (Schedule timeout happens while waiting for an async result) and Integer Division By ZeroException (Thrown when a number is divided by zero)
 
 ```ruby
 // TODO ON Clause
