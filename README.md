@@ -1058,32 +1058,50 @@ __Need to Know__
 __Example__
 
 ```ruby
-void main(){
-  
-  Monkey mMonkey = Monkey();
-  print(mMonkey.height);
-  
-  mMonkey.talk('Hello World');
-  mMonkey.monkeWeight();
+void main() {
+
+	var dog = Dog();
+	dog.breed = "Labrador";
+	dog.color = "Black";
+	dog.bark();
+	dog.eat();
+
+	var cat = Cat();
+	cat.color = "White";
+	cat.age = 6;
+	cat.eat();
+	cat.meow();
+
+	var animal = Animal();
+	animal.color = "brown";
+	animal.eat();
 }
 
-class Human{
-  
-  double height = 10.0;
-  int age = 60;
-  
-  void talk(String mStringText){
-    print(mStringText);
-  }
+class Animal {
+
+	String? color;
+
+	void eat() {
+		print("Eat !!!");
+	}
 }
 
-class Monkey extends Human{
-  
-  double weight = 150.0;
-  
-  void monkeWeight(){
-     print('Weight$weight');
-  } 
+class Dog extends Animal { // TODO Dog is Child class or sub class, Animal is super or parent class
+
+	String? breed;
+
+	void bark() {
+		print("Bark !!!");
+	}
+}
+
+class Cat extends Animal { // TODO Cat is Child class or sub class, Animal is super or parent class
+
+	int? age;
+
+	void meow() {
+		print("Meow !!!");
+	}
 }
 ```
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions) 
