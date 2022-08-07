@@ -944,6 +944,10 @@ class Student {
 - At the time of calling constructor, memory for the object is allocated in the memory.
 - It calls a default constructor if there is no constructor available in the class.
 
+__Need to Know__ 
+
+- In the same class we can have multiple named constructor but we cannot have both default constructor and parametrized constructor at the same time.
+
 __Example__
 
 ```ruby
