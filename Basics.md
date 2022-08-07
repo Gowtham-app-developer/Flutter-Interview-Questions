@@ -536,6 +536,58 @@ class Student {
 }
 ```  
 
+## Constructor [Inheritance using Default and Named Constructor]
+
+- By Default, a constructor in a subclass calls the superclass's no arguement Constructor.
+- The parent class constructor is always called before child class constructor.
+- If default constructor is missing in Parent class, then you must manually call one of the constructor in Super class.
+
+```ruby
+void main() {
+
+	var dog1 = Dog("Labrador", "Black");
+
+	print("");
+
+	var dog2 = Dog("Pug", "Brown");
+
+	print("");
+
+	var dog3 = Dog.myNamedConstructor("German Shepherd", "Black-Brown");
+}
+
+class Animal {
+
+	String? color;
+
+  // TODO Inheritance with Default Constructor and Parameterised Constructor
+	Animal(String color) {
+		this.color = color;
+		print("Animal class constructor");
+	}
+  
+  // TODO Inheritance with Named Constructor
+	Animal.myAnimalNamedConstrctor(String color) {
+		print("Animal class named constructor");
+	}
+}
+
+class Dog extends Animal {
+
+	String? breed;
+
+	Dog(String breed, String color) : super(color) {
+		this.breed = breed;
+		print("Dog class constructor");
+	}
+
+	Dog.myNamedConstructor(String breed, String color) : super.myAnimalNamedConstrctor(color) {
+		this.breed = breed;
+		print("Dog class Named Constructor");
+	}
+}
+```
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
