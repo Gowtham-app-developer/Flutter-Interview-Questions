@@ -505,7 +505,41 @@ throwException() {
   throw new CustomException('This is my custom exception');
 }
 ```
+## Class and Objects
 
+```ruby
+void main() {
+
+	var student1 = Student(); // TODO One Object, student1 is reference variable
+	student1.id = 23;
+	student1.name = "Gauthy";
+	print("${student1.id} and ${student1.name}");
+
+	student1.study();
+	student1.sleep();
+
+	var student2 = Student(); // TODO One Object, student2 is reference variable
+	student2.id = 45;
+	student2.name = "Ram";
+	print("${student2.id} and ${student2.name}");
+	student2.study();
+	student2.sleep();
+}
+
+// Define states (properties) and behavior of a Student
+class Student {
+	int id = -1; // TODO Instance or Field Variable, default value is -1
+	String? name; // TODO Instance or Field Variable, default value is null
+
+	void study() {
+		print("${this.name} is now studying");
+	}
+
+	void sleep() {
+		print("${this.name} is now sleeping");
+	}
+}
+```
 
 ## Need to know
 
