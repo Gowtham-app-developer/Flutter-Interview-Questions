@@ -1305,3 +1305,46 @@ void main() {
 }
 ```  
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)  
+
+## Method Overriding
+
+- If a subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+- The method must have the same name and parameters as in the parent class.
+- It is used for runtime polymorphism.
+
+```ruby
+void main() {
+
+	var dog = Dog();
+	dog.eat();
+
+	print(dog.color);
+}
+
+class Animal {
+
+	String color = "brown";
+
+	void eat() {
+		print("Animal is eating !!!");
+	}
+}
+
+class Dog extends Animal {
+
+	String? breed;
+
+	String color = "Black"; // TODO Property Overriding
+
+	void bark() {
+		print("Bark !!!");
+	}
+
+	// TODO Method Overriding
+	void eat() {
+		print("Dog is eating !!!");
+		super.eat();
+		print("More food to eat !!!");
+	}
+}
+```
