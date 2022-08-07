@@ -437,7 +437,74 @@ findVolume(int length, {int breadth = 2, int height = 20}) {
 
 - The Exception Handling is a mechanism used to handle the runtime errors so that normal flow of the application can be maintained.
 - It can be handled using four keyword Types -> try, catch, finally and on.
-- Some Common Exception Types -> Format Exception, IO Exception, Timeout Exception and 
+- Some Common Exception Types -> Format Exception (Datatype doesn't have an expected expected format, IO Exception, Timeout Exception (Schedule timeout happens while waiting for an async result and Integer Division By ZeroException (Thrown when a number is divided by zero)
+
+```ruby
+// TODO ON Clause
+// TODO Catch Clause with Exception Object
+// TODO Catch Clause with Exception Object and StackTrace Object
+// TODO Finally Clause
+// TODO Create our own Custom Exception
+
+void main() {
+
+	print("CASE 1");
+	// CASE 1: When you know the exception to be thrown, use ON Clause
+	try {
+		int result = 12 ~/ 4; // where ~/ means divide to integer & return results in the form of Integer
+		print("The result is $result");
+	} on IntegerDivisionByZeroException {
+		print("It Cannot divide by Zero");
+	}
+
+	print(""); print("CASE 2");
+	// CASE 2: When you do not know the exception use CATCH Clause
+	try {
+		int result = 12 ~/ 0;
+		print("The result is $result");
+	} catch (e) {
+		print("The exception thrown is $e");
+	}
+
+	print(""); print("CASE 3");
+	// CASE 3: Using STACK TRACE to know the events occurred before Exception was thrown
+	try {
+		int result = 12 ~/ 0;
+		print("The result is $result");
+	} catch (e, s) {
+		print("The exception thrown is $e");
+		print("STACK TRACE \n $s");
+	}
+
+	print(""); print("CASE 4");
+	// CASE 4: Whether there is an Exception or not, FINALLY Clause is always Executed
+	try {
+		int result = 12 ~/ 3;
+		print("The result is $result");
+	} catch (e) {
+		print("The exception thrown is $e");
+	} finally {
+		print("This is FINALLY Clause and is always executed.");
+	}
+
+	print(""); print("CASE 5");
+	// CASE 5: Custom Exception (i.e.) Creating an Exception manually
+	try {
+    throwException();
+  } on CustomException {
+    print("custom exception has been obtained");
+  }
+}
+
+class CustomException implements Exception {
+  String cause;
+  CustomException(this.cause);
+}
+
+throwException() {
+  throw new CustomException('This is my custom exception');
+}
+```
 
 
 ## Need to know
