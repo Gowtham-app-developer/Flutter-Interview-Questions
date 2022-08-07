@@ -1046,8 +1046,14 @@ class Student {
 ## Inheritance
 
 - Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
+- Types - Single Inheritance, Multilevel Inheritance and Hierarchical Inheritance.
 - It provides code reusability. 
-- It is used to achieve runtime polymorphism.
+- It provides the mechanism of Method Overriding (i.e.) It is used to achieve runtime polymorphism.
+
+__Need to Know__
+
+- All the super class are inherited from the class of Object.
+- It provides few implementation like toString() -> returns string representation of the Object, hashcode -> returns hashcode representation of the Object and operator == -> To compare two objects.
 
 __Example__
 
