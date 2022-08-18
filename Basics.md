@@ -370,16 +370,19 @@ int getArea(int length, int breadth) => length * breadth;
 
 ## Function [Optional Positional Parameters]
 
+- A parameter wrapped by [ ] is a positional optional parameter.
+
+__Example__
+
 ```ruby
 void main() {
 
-  // TODO Required Parameters
-  // TODO Optional Positional Parameters
-  
+  // TODO Passing Required Parameters
   printCities("New York", "New Delhi", "Sydney");
 	print("");
 
-	printCountries("USA");  // You can skip the Optional Positional Parameters
+  // TODO Passing Optional Positional Parameters
+	printCountries("USA"); // You can skip the Optional Positional Parameters
   
 }
 
@@ -402,6 +405,10 @@ void printCountries(String name1, [name2, name3]) {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Function [Optional Named Parameters]
+
+- A parameter will be disclosed with curly bracket { }
+
+__Example__
 
 ```ruby
 ```
