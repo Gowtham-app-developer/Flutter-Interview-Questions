@@ -26,11 +26,11 @@
 ## Hello World
 
 ```ruby
-void main(){ // TODO void main() is the Entry Function
+void main(){ // TODO void main() -> is the Entry point of all our Flutter Applications
   
   print("Hello World");
-  
-  print(4-3); // TODO Performing some Arithematic Operations
+ 
+  print(4-3);  // TODO Performing some Arithematic Operations
   
   print(false);
   
