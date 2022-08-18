@@ -406,11 +406,28 @@ void printCountries(String name1, [name2, name3]) {
 
 ## Function [Optional Named Parameters]
 
-- A parameter will be disclosed with curly bracket { }
+- A parameter will be disclosed with curly bracket { } and the Sequence of Named Parameter doesn't matter.
 
 __Example__
 
 ```ruby
+void main() {
+  
+	findVolume(10, breadth: 5, height: 20);
+	print("");
+
+  // TODO Sequence doesn't matter in Named Parameter
+	findVolume(10, height: 20, breadth: 5); 
+}
+
+void findVolume(int length, {breadth, height}) {
+
+	print("Length is $length");
+	print("Breadth is $breadth");
+	print("Height is $height");
+
+	print("Volume is ${length * breadth * height}");
+}
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
