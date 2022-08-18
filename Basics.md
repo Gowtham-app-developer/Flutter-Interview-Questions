@@ -19,6 +19,9 @@
 | 13 | [Function](Basics.md#function) |
 | 14 | [Function as Expression](Basics.md#function-as-expression) |
 | 15 | [Function [Optional Positional Parameters]](Basics.md#function-optional-positional-parameters) |
+| 16 | [Function [Optional Named Parameters]](Basics.md#function-optional-named-parameters) |
+| 17 | [Function [Optional Default Parameters]](Basics.md#function-optional-default-parameters) |
+
 
 ## Hello World
 
