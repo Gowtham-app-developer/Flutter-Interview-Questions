@@ -370,7 +370,7 @@ int getArea(int length, int breadth) => length * breadth;
 
 ## Function [Optional Positional Parameters]
 
-- A parameter wrapped by [ ] is a positional optional parameter.
+- A parameter wrapped by [ ] is a positional optional parameter (i.e.) Basically We can skip the parameters of the Right Hand Side.
 
 __Example__
 
