@@ -628,7 +628,7 @@ void main() {
   // TODO Index:       0   1   2   3   4
   // TODO Elements:    73  64  N   21  12
 
-	List<int> numbersList  = List<int>.filled(5, 0, growable: false); // TODO Fixed-length list
+	List<int> numbersList  = List<int>.filled(5, 0, growable: false); // TODO Declaring Fixed-length list
 	numbersList[0] = 73;  // TODO Insert operation
 	numbersList[1] = 64;
   	numbersList[2] = 64;
