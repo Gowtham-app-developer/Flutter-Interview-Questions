@@ -614,6 +614,49 @@ class Dog extends Animal {
 }
 ```
 
+## Lists
+
+- Types -> Fixed-Length List, Growable List
+- Fixed-Length List -> Length once defined cannot be changed.
+- Growable List -> Length is Dynamic.
+
+__Example using Fixed-Length List__
+
+```ruby
+void main() {
+
+  // TODO Index:       0   1   2   3   4
+  // TODO Elements:    73  64  N   21  12
+
+	List<int> numbersList  = List<int>.filled(5, 0, growable: false); // TODO Fixed-length list
+	numbersList[0] = 73;  // TODO Insert operation
+	numbersList[1] = 64;
+  	numbersList[2] = 64;
+	numbersList[3] = 21;
+	numbersList[4] = 12;
+
+	numbersList[0] = 99;   // TODO Update Zeroth Index
+	numbersList[1] = 0; // TODO Update first Index
+
+	print(numbersList[0]);
+	print("\n");
+
+	for (int element in numbersList) {  // TODO Using Individual Element (Objects)
+		print(element);
+	}
+
+	print("\n");
+
+	numbersList.forEach((element) => print(element)); // TODO Using forEach Lambda
+
+	print("\n");
+
+	for (int i = 0; i < numbersList.length; i++) { // TODO Using For Loop Index
+		print(numbersList[i]);
+	}
+}
+```
+
 ## Need to know
 
 - Data Type that dart Supports - Strings, Numbers(int,double), Boolean, Lists(Arrays), Maps, Symbols and Runes(for expressing unicode character in a String)
