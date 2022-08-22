@@ -656,6 +656,51 @@ void main() {
 	}
 }
 ```
+__Example using Growable List__
+
+```ruby
+void main() {
+
+  // TODO Index:       0   1   2   3   4
+  // TODO Elements:    73  64  64   21  12
+  
+  	List<String> countries = ["USA", "INDIA", "CHINA"];  // Growable List : METHOD 1
+  	countries.add("Nepal");
+  	countries.add("Japan");
+
+	List<int> numbersList  = <int>[]; // TODO Growable list : METHOD 2
+	numbersList.add(73);  // TODO Insert operation
+	numbersList.add(64);
+  	numbersList.add(64);
+	numbersList.add(21);
+  	numbersList.add(12);
+
+	numbersList[0] = 99;   // TODO Update Zeroth Index
+	numbersList[1] = 0; // TODO Update first Index
+
+	print(numbersList[0]);
+	print("\n");
+
+	numbersList.add(24);   // TODO For Adding an Element and it won't support in fixed-length list
+  	numbersList.remove(73); // TODO For Removing the List using Elements and it won't support in fixed-length list
+  	numbersList.removeAt(3); // TODO For Removing the List using index and it won't support in fixed-length list
+  	// numbersList.clear(); // TODO For Removing the List using index and it won't support in fixed-length list
+
+	for (int element in numbersList) {  // TODO Using Individual Element (Objects)
+		print(element);
+	}
+
+	print("\n");
+
+	numbersList.forEach((element) => print(element)); // TODO Using forEach Lambda
+
+	print("\n");
+
+	for (int i = 0; i < numbersList.length; i++) { // TODO Using For Loop Index
+		print(numbersList[i]);
+	}
+}
+```
 
 ## Need to know
 
