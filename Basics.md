@@ -54,6 +54,7 @@ void main(){ // TODO void main() -> is the Entry point of all our Flutter Applic
 ```ruby
 void main() {
   
+   // TODO Strings
     String mValue = "Hello World"; // TODO Where String - Data Type, mValue - Variable Name and "Hello World" - Value
     print(mValue);
   
