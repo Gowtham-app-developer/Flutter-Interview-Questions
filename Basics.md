@@ -25,7 +25,7 @@
 
 ## Hello World
 
-- The main function is the entry point of all our Flutter Applications.
+- The main function is the entry point of all our Flutter Applications (i.e.) whatever the code we written in the main function will get executed first.
 
 __Example__
 
