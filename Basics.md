@@ -286,7 +286,6 @@ __Example__
 void main() {
 
     // TODO Finding the even numbers between 1 to 10
-    
     int i = 1;
     do {
         if (i % 2 == 0) {
@@ -299,6 +298,12 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Break Keyword
+
+- The break keyword is used to break out a For loop, a while loop or a switch block.
+- __Note:__ The break keyword is applicable only for it's nearest parent loop.
+- In case if we want to apply for multiple For Loop we can use Labels.
+
+__Example__
 
 ```ruby
 void main() {
@@ -316,6 +321,12 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Continue Keyword
+
+- By using the continue keyword, When the Statement is executed it will skip all the code right after the continue and continue with the Loop.
+- __Note:__ The Continue keyword is applicable only for it's nearest parent loop.
+- In case if we want to apply for multiple For Loop we can use Labels.
+
+__Example__
 
 ```ruby
 void main() {
