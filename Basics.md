@@ -322,7 +322,7 @@ void main() {
 
 ## Continue Keyword
 
-- By using the continue keyword, When the Statement is executed it will skip all the code right after the continue and continue with the Loop.
+- By using the continue keyword, When the Statement is executed it will skip all the code right after the continue and then continue with the Loop.
 - __Note:__ The Continue keyword is applicable only for it's nearest parent loop.
 - In case if we want to apply for multiple For Loop we can use Labels.
 
