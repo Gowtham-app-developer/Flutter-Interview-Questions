@@ -58,7 +58,7 @@ void main() { // TODO void main() - Entry Point
 - Dart supports the Following Data Types (i.e.) Numbers (int, double), Strings, Booleans, Lists (also known as Arrays), Maps, Runes (for expressing Unicode character in a String) and Symbols 
 - In Dart, We can declare the Value using Data Type (i.e.) String, int, etc (or) using var.
 - By using 'var' it will be inferred as data type automatically by compiler.
-- __NOTE:__ All data types in Dart are Objects. Therefore, their initial value is default by 'null' unless we initialize the Values.
+- __Note:__ All data types in Dart are Objects. Therefore, their initial value is default by 'null' unless we initialize the Values.
 
 __Example__
 
