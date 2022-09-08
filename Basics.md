@@ -280,6 +280,8 @@ void main() {
 
 - Initialize ->  Code Execute -> Increment -> Condition Check
 
+__Example__
+
 ```ruby
 void main() {
 
