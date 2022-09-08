@@ -832,13 +832,13 @@ void main() {
 ## Final vs Const
 
 - If you never want to change a variable then we have to declare using the keyword final or const.
-- The __final__ variable can be set only once and is initialized when accessed.
+- The __final__ variable can be set only once and is initialized only when we accessed (i.e.) Variables will not be initialized unless we not use it in our Code.
 - The __const__ variable are implicitly final but it is a compile-time constant (i.e.) It is initialized during Compilation.
 
 __Need to Know__
 
 - Instance variable can be final but cannot be const.
-- If we want a Constant at class level then make it as static const
+- If we want to use a const at class level then make it as static const
 
 __Example 1__
 
@@ -858,7 +858,7 @@ __Example 2__
 void main() {
     // TODO final
     final mCityName = 'TamilNadu';
-    // name = 'Peter'; // Throws an error
+    // name = 'Peter'; // TODO Throws an error
   
     // TODO const
     const PI = 3.14;
@@ -867,8 +867,7 @@ void main() {
 
 class Circle {
     final color = 'Red';
-    static
-    const PI = 3.14; // If we want a Constant at class level then make it as static const
+    static const PI = 3.14; // TODO If we want to use a const at class level then make it as static const
 }
 ```
 
