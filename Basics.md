@@ -6,7 +6,7 @@
 | --------	 | ------------ |
 | 1 | [Hello World](Basics.md#hello-world) |
 | 2 | [ Adding Comment Line](Basics.md#adding-comment-line) |
-| 3 | [Variable Declration](Basics.md#variable-declration) |
+| 3 | [Variable Declaration](Basics.md#variable-declaration) |
 | 4 | [Literals and String Interpolation](Basics.md#literals-and-string-interpolation) |
 | 5 | [If and Else](Basics.md#if-and-else) |
 | 6 | [Ternary Operator](Basics.md#ternary-operator) |
@@ -53,7 +53,7 @@ void main() { // TODO void main() - Entry Point
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
-## Variable Declration
+## Variable Declaration
 
 - Dart supports the Following Data Types (i.e.) Numbers (int, double), Strings, Booleans, Lists (also known as Arrays), Maps, Runes (for expressing Unicode character in a String) and Symbols 
 - In Dart, We can declare the Value using Data Type (i.e.) String, int, etc (or) using var.
@@ -172,19 +172,15 @@ void main() {
 
 - It evaluates a condition and executes a block of code based on the condition.
 - It consists of Two Types.
-- __condition ? exp1 : exp2__ - If condition is true, evaluates expr1 (and returns its value); otherwise, evaluates and returns the value of expr2. 
-- __exp1 ?? exp2__ - If expr1 is non-null, returns its value; otherwise, evaluates and returns the value of expr2.
+- __condition ? exp1 : exp2__ - If the condition is true, evaluates expr1 (and returns its value); otherwise, evaluates and returns the value of expr2. 
+- __exp1 ?? exp2__ - If the expr1 is non-null, returns its value; otherwise, evaluates and returns the value of expr2.
 
 __Example__
 
 ```ruby
 void main() {
 
-    // TODO Ternary Operator
-  
     // TODO condition ? exp1 : exp2
-    // TODO If condition is true, evaluates expr1 (and returns its value);
-    // otherwise, evaluates and returns the value of expr2.
     int a = 5;
     int b = 10;
     int smallNumber = a < b ? a : b;
@@ -192,8 +188,6 @@ void main() {
     print("$smallNumber is smaller");
   
     // TODO exp1 ?? exp2
-    // TODO If expr1 is non-null, returns its value; otherwise, evaluates and
-    // returns the value of expr2.
     String name = null;
     String nameToPrint = name ?? "Guest";
   
