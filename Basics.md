@@ -93,11 +93,14 @@ void main() {
 
 ## Literals and String Interpolation
 
+- __Literals__ - It is the Values where you can assign them to a Variables.
+- __String Interpolation__ - It is the process of replacing placeholders with values in a string literal.
+
 ```ruby
 void main() {
 
-    // TODO Literals - It is the Values where you can assign them to a Variables.
-    String s1 = 'Hello World'; // TODO Where Hello World is the Literals 
+    // TODO Literals
+    String s1 = 'Hello World'; // TODO Where 'Hello World' is the String Literals 
     
     // TODO Various ways to define String Literals in Dart
     String s2 = 'Hello World';
@@ -112,7 +115,7 @@ void main() {
    // TODO String Interpolation
     String name = "Hello World";
    
-    print("My name is " + name); // TODO Appending the name is just like a bad pratice 
+    print("My name is " + name); // TODO Appending the name is just a bad pratice 
     print("My name is $name"); // TODO String Interpolation
     print("The number of characters in String Kevin is ${name.length}");
     
