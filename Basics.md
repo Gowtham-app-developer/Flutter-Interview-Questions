@@ -55,37 +55,38 @@ void main() { // TODO void main() - Entry Point
 
 ## Variable Declration
 
+- Dart supports the Following Data Types (i.e.) Numbers (int, double), Strings, Booleans, Lists (also known as Arrays), Maps, Runes (for expressing Unicode character in a String) and Symbols 
+- In Dart, We can declare the Value using Data Type (i.e.) String, int, etc (or) using var.
+- By using 'var' it will be inferred as data type automatically by compiler.
+- __NOTE:__ All data types in Dart are Objects. Therefore, their initial value is default by 'null' unless we initialize the Values.
+
+__Example__
+
 ```ruby
 void main() {
   
    // TODO Strings
     String mValue = "Hello World"; // TODO Where String - Data Type, mValue - Variable Name and "Hello World" - Value
+    var company = "Amazon";
     print(mValue);
   
     // TODO Numbers: int
     int score = 25;
     var count = 50; // TODO It is inferred as integer automatically by compiler
     int hexValue = 0xEADEBAEE;
+    print(score);
   
     // TODO Numbers: double
     double percentage = 95.0;
     var percent = 70.0;
     double exponents = 1.42e5;
-  
-    // TODO Strings
-    String name = "Google";
-    var company = "Amazon";
+    print(exponents);
   
     // TODO Boolean
     bool isValid = true;
     var isAlive = false;
-    
-    print(score);
-    print(exponents);
     print(isAlive);
   
-    // NOTE: All data types in Dart are Objects.
-    // Therefore, their initial value is by default 'null'
 }
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
