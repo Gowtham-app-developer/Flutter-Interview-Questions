@@ -132,6 +132,10 @@ void main() {
 
 ## If and Else
 
+- It will be used to check the condition Loop.
+
+__Example__
+
 ```ruby
 void main() {
 
@@ -165,6 +169,13 @@ void main() {
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Ternary Operator
+
+- It evaluates a condition and executes a block of code based on the condition.
+- It consists of Two Types.
+- __condition ? exp1 : exp2__ - If condition is true, evaluates expr1 (and returns its value); otherwise, evaluates and returns the value of expr2. 
+- __exp1 ?? exp2__ - If expr1 is non-null, returns its value; otherwise, evaluates and returns the value of expr2.
+
+__Example__
 
 ```ruby
 void main() {
