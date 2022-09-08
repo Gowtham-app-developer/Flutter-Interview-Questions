@@ -348,7 +348,7 @@ void main() {
 - Collection of Statements grouped together to perform an Operation.
 - Functions in Dart are Objects (i.e.) Functions can be assigned to a variable or we can passed as a parameter to other functions.
 - All Functions in Dart returns a Value and if no return value is specified then it returns null.
-- Defining return type is optional but is recommended as per code convention
+- __Note:__ Defining return type is optional but is recommended as per code convention
 
 __Example__
 
