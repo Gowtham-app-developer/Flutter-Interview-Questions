@@ -25,8 +25,12 @@
 
 ## Hello World
 
+- The main function is the entry point of all our Flutter Applications.
+
+__Example__
+
 ```ruby
-void main(){ // TODO void main() -> is the Entry point of all our Flutter Applications
+void main() { // TODO void main() - Entry Point
   
   print("Hello World");
  
