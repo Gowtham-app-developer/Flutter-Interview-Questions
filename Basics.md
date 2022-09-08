@@ -132,7 +132,7 @@ void main() {
 
 ## If and Else
 
-- It will be used to check the condition Loop.
+- It will be used to perform different actions based on different conditions.
 
 __Example__
 
@@ -198,12 +198,16 @@ void main() {
 
 ## Switch Case Statement
 
+- It will be used to perform different actions based on different conditions.
+- It is Applicable only for the Data Type 'int' and 'String' 
+
+__Example__
+
 ```ruby
 void main() {
   
-    // TODO Switch Case Statements: It is Applicable only for 'int' and 'String'
+    String grade = 'A';
     
-  	String grade = 'A';
     switch (grade) {
         case 'A':
             print("Excellent grade of A");
