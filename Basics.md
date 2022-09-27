@@ -619,6 +619,7 @@ class Student {
   double get percentage => _percent;
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Constructor [Inheritance using Default and Named Constructor]
 
