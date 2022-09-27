@@ -469,6 +469,10 @@ void findVolume(int length, {breadth, height}) {
 
 ## Function [Optional Default Parameters]
 
+- We can assign a default values to the Parameter
+
+__Example__
+
 ```ruby
 // TODO Optional Default Parameters
 
