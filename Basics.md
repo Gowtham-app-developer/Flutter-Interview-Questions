@@ -505,6 +505,8 @@ findVolume(int length, {int breadth = 2, int height = 20}) {
 - It can be handled using four keyword Types -> try, catch, finally and on.
 - Some Common Exception Types -> Format Exception (Datatype doesn't have an expected expected format), IO Exception, Timeout Exception (Schedule timeout happens while waiting for an async result) and Integer Division By ZeroException (Thrown when a number is divided by zero)
 
+__Example__
+
 ```ruby
 // TODO ON Clause
 // TODO Catch Clause with Exception Object
@@ -748,4 +750,4 @@ void main() {
 - All the Data Types in Dart are Objects and therefore Values are default by null.
 - Difference Between For, While and doWhile -> For will used in the Finite (Already know the number of times the loop should be execite) Loops, While and doWhile will be used in the Indefinite (Don't know the how many the code should execute (oe) Execute the Code based on some conditions) Loops.
 - In While Loop we will first check the Condition and in doWhile Loop we will execute the code and then we will check the condition.
-- In Dart, Paramter - Two Types -> Required, Optional (Positional, Named and Default)
+- In Dart, Functional Paramter - Two Types -> Required, Optional (Positional, Named and Default)
