@@ -942,6 +942,7 @@ class Student {
 - It is called when an instance of the class is created. 
 - At the time of calling constructor, memory for the object is allocated in the memory.
 - It calls a default constructor if there is no constructor available in the class.
+- Types -> Default, Parameterized, Named and Constant Constructor
 
 __Need to Know__ 
 
@@ -980,10 +981,10 @@ __Example 2__
 ```ruby
 void main() {
 
-  // TODO Default Constructor
-  
-  // TODO Parameterized Constructor
-  
+	// TODO Default Constructor
+
+	// TODO Parameterized Constructor
+
 	var student1 = Student(25, "Gauthy"); // TODO One Object, student1 is reference variable
 	print("${student1.id} and ${student1.name}");
 
@@ -996,8 +997,9 @@ void main() {
 	student2.study();
 	student2.sleep();
 
-  // TODO Named Constructor
-	var student3 = Student.myCustomConstructor();   // TODO One object, student3 is a reference variable
+	// TODO Named Constructor
+  
+	var student3 = Student.myCustomConstructor(); // TODO One object, student3 is a reference variable
 	student3.id = 54;
 	student3.name = "Rahul";
 	print("${student3.id} and ${student3.name}");
@@ -1008,28 +1010,29 @@ void main() {
 }
 
 // TODO Define states (properties) and behavior of a Student
+
 class Student {
 	int id = -1;
-	String? name;
+	String ? name;
 
-  
-  // TODO Parameterized Constructor 
-  
-//   Student(id, name){
-//     this.id = id;
-//     this.name = name;
-//   }
-  
-  // TODO - Code Optimization
-	Student(this.id, this.name); 
 
-	 // TODO Named Constructor
-  Student.myCustomConstructor() {                
+	// TODO Parameterized Constructor 
+
+	//   Student(id, name){
+	//     this.id = id;
+	//     this.name = name;
+	//   }
+
+	// TODO - Code Optimization
+	Student(this.id, this.name);
+
+	// TODO Named Constructor
+	Student.myCustomConstructor() {
 		print("This is my custom constructor");
 	}
 
-  // TODO Named Constructor with parameter
-	Student.myAnotherNamedConstructor(this.id, this.name);  
+	// TODO Named Constructor with parameter
+	Student.myAnotherNamedConstructor(this.id, this.name);
 
 	void study() {
 		print("${this.name} is now studying");
