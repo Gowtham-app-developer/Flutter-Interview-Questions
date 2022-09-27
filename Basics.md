@@ -519,35 +519,39 @@ void main() {
 	print("CASE 1");
 	// TODO CASE 1: When you know the exception to be thrown, use ON Clause
 	try {
-		int result = 12 ~/ 4; // where ~/ means divide to integer & return results in the form of Integer
+		int result = 12~/ 4; / / where~/ means divide to integer & return results in the form of Integer
 		print("The result is $result");
-	} on IntegerDivisionByZeroException {
+	}
+	on IntegerDivisionByZeroException {
 		print("It Cannot divide by Zero");
 	}
 
-	print(""); print("CASE 2");
+	print("");
+	print("CASE 2");
 	// TODO CASE 2: When you do not know the exception use CATCH Clause
 	try {
-		int result = 12 ~/ 0;
+		int result = 12~/ 0;
 		print("The result is $result");
 	} catch (e) {
 		print("The exception thrown is $e");
 	}
 
-	print(""); print("CASE 3");
+	print("");
+	print("CASE 3");
 	// TODO CASE 3: Using STACK TRACE to know the events occurred before Exception was thrown
 	try {
-		int result = 12 ~/ 0;
+		int result = 12~/ 0;
 		print("The result is $result");
 	} catch (e, s) {
 		print("The exception thrown is $e");
 		print("STACK TRACE \n $s");
 	}
 
-	print(""); print("CASE 4");
+	print("");
+	print("CASE 4");
 	// TODO CASE 4: Whether there is an Exception or not, FINALLY Clause is always Executed
 	try {
-		int result = 12 ~/ 3;
+		int result = 12~/ 3;
 		print("The result is $result");
 	} catch (e) {
 		print("The exception thrown is $e");
@@ -555,22 +559,24 @@ void main() {
 		print("This is FINALLY Clause and is always executed.");
 	}
 
-	print(""); print("CASE 5");
+	print("");
+	print("CASE 5");
 	// TODO CASE 5: Custom Exception (i.e.) Creating an Exception manually
 	try {
-    throwException();
-  } on CustomException {
-    print("custom exception has been obtained");
-  }
+		throwException();
+	}
+	on CustomException {
+		print("custom exception has been obtained");
+	}
 }
 
 class CustomException implements Exception {
-  String cause;
-  CustomException(this.cause);
+	String cause;
+	CustomException(this.cause);
 }
 
 throwException() {
-  throw new CustomException('This is my custom exception');
+	throw new CustomException('This is my custom exception');
 }
 ```
 ## Getter and Setter
