@@ -942,7 +942,7 @@ class Student {
 - It is called when an instance of the class is created. 
 - At the time of calling constructor, memory for the object is allocated in the memory.
 - It calls a default constructor if there is no constructor available in the class.
-- Types -> Default, Parameterized, Named and Constant Constructor
+- __Types__ -> Default, Parameterized, Named and Constant Constructor
 
 __Need to Know__ 
 
