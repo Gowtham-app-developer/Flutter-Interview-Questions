@@ -22,6 +22,7 @@
 | 16 | [Function [Optional Named Parameters]](Basics.md#function-optional-named-parameters) |
 | 17 | [Function [Optional Default Parameters]](Basics.md#function-optional-default-parameters) |
 | 18 | [Exception Handling](Basics.md#exception-handling) |
+| 19 | [Getter and Setter](Basics.md#getter-and-setter) |
 
 
 ## Hello World
@@ -584,8 +585,8 @@ throwException() {
 
 ## Getter and Setter 
 
-- Making the data members public which can be accessible anywhere that is unsafe.
-- So we will make our data members private which can only be accessed within the class.
+- By Making the data members as public which can be accessible anywhere that is unsafe.
+- So we will make our data members private which can be accessed only within the class.
 - By providing a setter or getter method, we can make the class read-only or write-only.
 
 __Example__
