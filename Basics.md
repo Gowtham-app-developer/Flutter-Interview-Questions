@@ -619,6 +619,8 @@ class Student {
 - The parent class constructor is always called before child class constructor.
 - If default constructor is missing in Parent class, then you must manually call one of the constructor in Super class.
 
+__Example__
+
 ```ruby
 void main() {
 
