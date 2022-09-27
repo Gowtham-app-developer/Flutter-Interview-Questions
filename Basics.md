@@ -21,6 +21,7 @@
 | 15 | [Function [Optional Positional Parameters]](Basics.md#function-optional-positional-parameters) |
 | 16 | [Function [Optional Named Parameters]](Basics.md#function-optional-named-parameters) |
 | 17 | [Function [Optional Default Parameters]](Basics.md#function-optional-default-parameters) |
+| 18 | [Exception Handling](Basics.md#exception-handling) |
 
 
 ## Hello World
@@ -578,7 +579,9 @@ class CustomException implements Exception {
 throwException() {
 	throw new CustomException('This is my custom exception');
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 ## Getter and Setter
 
 ```ruby
