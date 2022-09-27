@@ -1078,7 +1078,7 @@ void main() {
 
 class Animal {
 
-	String? color;
+	String ? color;
 
 	void eat() {
 		print("Eat !!!");
@@ -1087,7 +1087,7 @@ class Animal {
 
 class Dog extends Animal { // TODO Dog is Child class or sub class, Animal is super or parent class
 
-	String? breed;
+	String ? breed;
 
 	void bark() {
 		print("Bark !!!");
@@ -1096,7 +1096,7 @@ class Dog extends Animal { // TODO Dog is Child class or sub class, Animal is su
 
 class Cat extends Animal { // TODO Cat is Child class or sub class, Animal is super or parent class
 
-	int? age;
+	int ? age;
 
 	void meow() {
 		print("Meow !!!");
