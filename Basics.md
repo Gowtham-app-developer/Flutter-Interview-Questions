@@ -582,7 +582,13 @@ throwException() {
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-## Getter and Setter
+## Getter and Setter 
+
+- Making the data members public which can be accessible anywhere that is unsafe.
+- So we will make our data members private which can only be accessed within the class.
+- By providing a setter or getter method, we can make the class read-only or write-only.
+
+__Example__
 
 ```ruby
 void main() {
