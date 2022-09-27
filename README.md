@@ -981,8 +981,6 @@ __Example 2__
 ```ruby
 void main() {
 
-	// TODO Default Constructor
-
 	// TODO Parameterized Constructor
 
 	var student1 = Student(25, "Gauthy"); // TODO One Object, student1 is reference variable
@@ -1012,12 +1010,11 @@ void main() {
 // TODO Define states (properties) and behavior of a Student
 
 class Student {
+
 	int id = -1;
 	String ? name;
 
-
 	// TODO Parameterized Constructor 
-
 	//   Student(id, name){
 	//     this.id = id;
 	//     this.name = name;
