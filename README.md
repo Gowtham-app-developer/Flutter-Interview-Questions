@@ -1137,7 +1137,7 @@ __Example 2__
 ```ruby
 void main() {
 
-	//	var shape = Shape();  // TODO Error (i.e.) We Cannot instantiate Abstract Class
+	// var shape = Shape();  // TODO Error (i.e.) We Cannot instantiate Abstract Class
 
 	var rectangle = Rectangle();
 	rectangle.draw();
@@ -1157,7 +1157,7 @@ abstract class Shape {
 	void draw();
 
 	void myNormalFunction() {
-		// Some code
+		print("This is Normal Function.....");
 	}
 }
 
