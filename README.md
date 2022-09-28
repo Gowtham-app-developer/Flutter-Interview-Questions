@@ -1356,6 +1356,8 @@ void main() {
 - The method must have the same name and parameters as in the parent class.
 - It is used for runtime polymorphism.
 
+__Example__
+
 ```ruby
 void main() {
 
@@ -1376,7 +1378,7 @@ class Animal {
 
 class Dog extends Animal {
 
-	String? breed;
+	String ? breed;
 
 	String color = "Black"; // TODO Property Overriding
 
