@@ -23,6 +23,7 @@
 | 17 | [Function [Optional Default Parameters]](Basics.md#function-optional-default-parameters) |
 | 18 | [Exception Handling](Basics.md#exception-handling) |
 | 19 | [Getter and Setter](Basics.md#getter-and-setter) |
+| 20 | [Constructor [Inheritance using Default and Named Constructor]](Basics.md#constructor-inheritance-using-default-and-named-constructor) |
 
 
 ## Hello World
@@ -672,6 +673,7 @@ class Dog extends Animal {
 	}
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Lists
 
