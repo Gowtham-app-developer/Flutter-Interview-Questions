@@ -633,11 +633,9 @@ __Example__
 void main() {
 
 	var dog1 = Dog("Labrador", "Black");
-
 	print("");
 
 	var dog2 = Dog("Pug", "Brown");
-
 	print("");
 
 	var dog3 = Dog.myNamedConstructor("German Shepherd", "Black-Brown");
