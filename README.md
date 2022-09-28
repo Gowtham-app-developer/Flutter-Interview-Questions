@@ -1121,9 +1121,7 @@ abstract class Shape {
 }
 
 class Square implements Shape {
-	Square({
-		this.side
-	});
+	Square({this.side});
 	final double side;
 	double area() => side * side;
 }
