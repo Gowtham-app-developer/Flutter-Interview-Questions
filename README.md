@@ -55,6 +55,7 @@
 | 13 | [List vs Map](README.md#list-vs-map) |
 | 14 | [Generics](README.md#generics) | 
 | 15 | [Method Overriding](README.md#method-overriding) |
+| 16 | [Interface](README.md#interface) | 
 
 ## Flutter
 
@@ -1407,6 +1408,8 @@ class Dog extends Animal {
 - It's Mandatory to override all methods in the implementing class.
 - We can implement multiple classses but we cannot extend multiple classes during Inheritance.
 
+__Example__
+
 ```ruby
 void main() {
 
@@ -1428,7 +1431,7 @@ class Remote {
 
 class AnotherClass {
 
-	void justAnotherMethod(){
+	void justAnotherMethod() {
 		// TODO Code
 	}
 
@@ -1438,8 +1441,8 @@ class AnotherClass {
 class Television implements Remote, AnotherClass {
 
 	void volumeUp() {
-    
-// super.volumeUp(); // TODO Not allowed to call super while implementing a class as Interface
+
+		// super.volumeUp(); // TODO Not allowed to call super while implementing a class as Interface
 		print("+++++++++");
 	}
 
@@ -1451,7 +1454,10 @@ class Television implements Remote, AnotherClass {
 		print("xxxxxxxxxxxxxx");
 	}
 }
-```
+```  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
+
 ## Static Keyword
 
 - It is a Non Access Modifier applicable for Variables and Methods.
