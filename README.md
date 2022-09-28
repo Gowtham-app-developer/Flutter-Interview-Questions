@@ -1120,15 +1120,17 @@ abstract class Shape {
 	double area();
 }
 
-class Square implements Shape{
-	Square({this.side});
-  final double side;
-  double area() => side * side;
+class Square implements Shape {
+	Square({
+		this.side
+	});
+	final double side;
+	double area() => side * side;
 }
 
-void main(){
+void main() {
 	final square = Square(side: 10.0);
-  print(square.area());
+	print(square.area());
 }
 ```  
 
@@ -1137,7 +1139,7 @@ __Example 2__
 ```ruby
 void main() {
 
-//	var shape = Shape();  // TODO Error (i.e.) We Cannot instantiate Abstract Class
+	//	var shape = Shape();  // TODO Error (i.e.) We Cannot instantiate Abstract Class
 
 	var rectangle = Rectangle();
 	rectangle.draw();
@@ -1150,11 +1152,11 @@ void main() {
 abstract class Shape {
 
 	// TODO we can define yur Instance variable if needed
-	int x;
-	int y;
+	int? x;
+	int? y;
 
-  // TODO Abstract Method
-	void draw();        
+	// TODO Abstract Method
+	void draw();
 
 	void myNormalFunction() {
 		// Some code
