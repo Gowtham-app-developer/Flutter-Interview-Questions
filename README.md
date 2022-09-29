@@ -1585,21 +1585,21 @@ void main() {
 
 	// TODO Example Two: Receiving Function from Higher-Order Function
 	var myFunc = taskToPerform();
-	print(myFunc(10)); // multiplyFour(10) // number * 4 // 10 * 4 // OUTPUT: 40
+	print(myFunc(10)); // TODO multiplyFour(10) // number * 4 // 10 * 4 // OUTPUT: 40
 }
 
 
 
 // TODO Example one: Accepts function as parameter
-void someOtherFunction(String message, Function myFunction) { // Higher-Order Function
+void someOtherFunction(String message, Function myFunction) { // TODO Higher-Order Function
 
 	print(message);
-	myFunction(4, 8); // addNumbers(2, 4) // print(a + b); // print(2 + 4) // OUTPUT: 6
+	myFunction(4, 8); // TODO addNumbers(2, 4) // print(a + b); // print(2 + 4) // OUTPUT: 6
 }
 
 
 // TODO Example two: Returns a function
-Function taskToPerform() { // Higher-Order Function
+Function taskToPerform() { // TODO Higher-Order Function
 
 	Function multiplyFour = (int number) => number * 6;
 	return multiplyFour;
