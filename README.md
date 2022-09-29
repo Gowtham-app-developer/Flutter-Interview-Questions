@@ -1585,7 +1585,7 @@ void main() {
 
 	// TODO Example Two: Receiving Function from Higher-Order Function
 	var myFunc = taskToPerform();
-	print(myFunc(10)); // TODO multiplyFour(10) // number * 4 // 10 * 4 // OUTPUT: 40
+	print(myFunc(10)); // TODO multiplyFour(10) // number * 6 // 10 * 6 // OUTPUT: 60
 }
 
 
@@ -1594,7 +1594,7 @@ void main() {
 void someOtherFunction(String message, Function myFunction) { // TODO Higher-Order Function
 
 	print(message);
-	myFunction(4, 8); // TODO addNumbers(2, 4) // print(a + b); // print(2 + 4) // OUTPUT: 6
+	myFunction(4, 8); // TODO addNumbers(4, 8) // print(a + b); // print(4 + 8) // OUTPUT: 12
 }
 
 
