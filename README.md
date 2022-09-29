@@ -57,8 +57,8 @@
 | 15 | [Method Overriding](README.md#method-overriding) |
 | 16 | [Interface](README.md#interface) | 
 | 17 | [Static Keyword](README.md#static-keyword) | 
-| 18 | [Lambda Expression](README.md#lambda-expression) | 
-
+| 18 | [Lambda Expression](README.md#lambda-expression) |
+| 19 | [Higher Order Function](README.md#higher-order-function) |
 
 ## Flutter
 
@@ -1569,3 +1569,41 @@ void addMyNumbers(int a, int b) {
 
 :arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
 
+## Higher Order Function
+
+- The Function passed as parameter to another function or a Function can return another function or It can do both.
+
+__Example__
+
+```ruby
+void main() {
+
+	// TODO Example One: Passing Function to Higher-Order Function
+	Function addNumbers = (a, b) => print(a + b);
+	someOtherFunction("Hello World", addNumbers);
+
+
+	// TODO Example Two: Receiving Function from Higher-Order Function
+	var myFunc = taskToPerform();
+	print(myFunc(10)); // multiplyFour(10) // number * 4 // 10 * 4 // OUTPUT: 40
+}
+
+
+
+// TODO Example one: Accepts function as parameter
+void someOtherFunction(String message, Function myFunction) { // Higher-Order Function
+
+	print(message);
+	myFunction(4, 8); // addNumbers(2, 4) // print(a + b); // print(2 + 4) // OUTPUT: 6
+}
+
+
+// TODO Example two: Returns a function
+Function taskToPerform() { // Higher-Order Function
+
+	Function multiplyFour = (int number) => number * 6;
+	return multiplyFour;
+}
+```  
+
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
