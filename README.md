@@ -1571,7 +1571,7 @@ void addMyNumbers(int a, int b) {
 
 ## Higher Order Function
 
-- The Function passed as parameter to another function or a Function can return another function or It can do both.
+- The Function that can be passed as parameter to another function or a Function can return another function or It can do both.
 
 __Example__
 
