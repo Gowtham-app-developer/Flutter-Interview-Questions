@@ -764,7 +764,54 @@ void main() {
 		print(numbersList[i]);
 	}
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Set and HashSet
+
+- Unordered collection of unique items (i.e.) It does not contain duplicate elements.
+- We cannot get elements by index, since the items are unordered.
+- __Hash Set__ is the implementation of unordered set.
+- It is based on hash-table based set implementation (i.e.) Each of the elements are identified with the help of hash values.
+
+__Example__
+
+```ruby
+void main() {
+
+	Set < String > countries = Set.from(["USA", "INDIA", "CHINA"]); // TODO Method 1: From a list
+	countries.add("Singapore");
+	countries.add("Japan");
+
+
+	Set < int > numbersSet = Set(); // TODO Method 2: Using Constructor
+	numbersSet.add(75); // TODO Insert Operation
+	numbersSet.add(65);
+	numbersSet.add(21);
+	numbersSet.add(15);
+
+	numbersSet.add(75); // TODO Duplicate entries are ignored
+	numbersSet.add(75); // TODO Ignored
+
+	numbersSet.contains(75); // TODO Returns true if the element is found in set
+	numbersSet.remove(65); // TODO Returns true if the element was found and deleted
+	numbersSet.isEmpty; // TODO Returns true if the Set is empty
+	numbersSet.length; // TODO Returns number of elements in Set
+	//	numbersSet.clear(); // TODO Deletes all elements
+
+	print("\n");
+
+	for (int element in numbersSet) { // TODO Using Individual Element ( Objects )
+		print(element);
+	}
+
+	print("\n");
+
+	numbersSet.forEach((element) => print(element)); // TODO Using Lambda
+}
+```  
+
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to know
 
