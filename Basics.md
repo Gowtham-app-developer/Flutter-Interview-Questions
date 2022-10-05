@@ -25,6 +25,8 @@
 | 19 | [Getter and Setter](Basics.md#getter-and-setter) |
 | 20 | [Constructor [Inheritance using Default and Named Constructor]](Basics.md#constructor-inheritance-using-default-and-named-constructor) |  
 | 21 | [Lists](Basics.md#lists) |
+| 22 | [Set and HashSet](Basics.md#set-and-hashset) |
+
 
 
 ## Hello World
@@ -769,7 +771,7 @@ void main() {
 
 ## Set and HashSet
 
-- Unordered collection of unique items (i.e.) It does not contain duplicate elements.
+- __Set__ is the Unordered collection of unique items (i.e.) It does not contain duplicate elements.
 - We cannot get elements by index, since the items are unordered.
 - __Hash Set__ is the implementation of unordered set.
 - It is based on hash-table based set implementation (i.e.) Each of the elements are identified with the help of hash values.
@@ -810,6 +812,61 @@ void main() {
 	numbersSet.forEach((element) => print(element)); // TODO Using Lambda
 }
 ```  
+
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Map and HashMap
+
+- __Map__ is an unordered collection of key-value pair.
+- Key-Value can be of any object type (i.e.) Each key in a Map should be unique but the value can be repeated.
+- Size of the map is not fixed (i.e.) It can be increased or Decreased as per the number of elements.
+- __HashMap__ is the implementation of Map Class.
+- The only difference is based on the hash-table (i.e.) Each of the elements is identified with the help of hash values.  
+
+__Example__
+
+```ruby
+void main() {
+
+	Map < String, int > countryDialingCode = { // TODO Method 1: Using Literal 
+		"USA": 1,
+		"INDIA": 91,
+		"PAKISTAN": 92
+	};
+
+
+	Map < String, String > fruits = Map(); // TODO Method 2: Using Constructor
+	fruits["apple"] = "red";
+	fruits["banana"] = "yellow";
+	fruits["guava"] = "green";
+
+	fruits.containsKey("apple"); // TODO Returns true if the KEY is present in Map
+	fruits.update("apple", (value) => "green"); // TODO Update the VALUE for the given KEY
+	fruits.remove("apple"); // TODO Removes KEY and it's VALUE and returns the VALUE
+	fruits.isEmpty; // TODO Returns true if the Map is empty
+	fruits.length; // TODO Returns number of elements in Map
+	// fruits.clear(); // TODO Deletes all elements
+
+	print(fruits["apple"]);
+
+	print("\n");
+
+	for (String key in fruits.keys) { // TODO Print all keys
+		print(key);
+	}
+
+	print("\n");
+
+	for (String value in fruits.values) { // TODO Print all values
+		print(value);
+	}
+
+	print("\n");
+
+	fruits.forEach((key, value) => print("key: $key and value: $value")); // TODO Using Lambda
+
+}
+```
 
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
