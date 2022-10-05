@@ -59,6 +59,7 @@
 | 17 | [Static Keyword](README.md#static-keyword) | 
 | 18 | [Lambda Expression](README.md#lambda-expression) |
 | 19 | [Higher Order Function](README.md#higher-order-function) |
+| 20 | [Closures](README.md#closures) |
 
 ## Flutter
 
@@ -1616,7 +1617,8 @@ Function taskToPerform() { // TODO Higher-Order Function
 
 __Example__
 
-```ruby
+void main() {
+
 	// 1. A closure is a function that has access to the parent scope, even after the scope has closed.
 
 	String message = "Dar is Programming Language";
@@ -1629,7 +1631,8 @@ __Example__
 	showMessage();
 
 
-	// 2. A closure is a function object that has access to variables in its lexical scope, even when the function is used outside of its original scope.
+	// 2. A closure is a function object that has access to variables in its lexical scope, 
+  // even when the function is used outside of its original scope.
 
 	Function talk = () {
 
