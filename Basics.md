@@ -23,7 +23,8 @@
 | 17 | [Function [Optional Default Parameters]](Basics.md#function-optional-default-parameters) |
 | 18 | [Exception Handling](Basics.md#exception-handling) |
 | 19 | [Getter and Setter](Basics.md#getter-and-setter) |
-| 20 | [Constructor [Inheritance using Default and Named Constructor]](Basics.md#constructor-inheritance-using-default-and-named-constructor) |
+| 20 | [Constructor [Inheritance using Default and Named Constructor]](Basics.md#constructor-inheritance-using-default-and-named-constructor) |  
+| 21 | [Lists](Basics.md#lists) |
 
 
 ## Hello World
@@ -677,8 +678,10 @@ class Dog extends Animal {
 
 ## Lists
 
+- In Dart, Arrays and Lists are both same (i.e.) Array is known as List.
+- In Lists, The Elements are stored in a Ordered Way.
 - Types -> Fixed-Length List, Growable List
-- Fixed-Length List -> Length once defined cannot be changed.
+- Fixed-Length List -> Length once defined cannot be changed Later.
 - Growable List -> Length is Dynamic.
 
 __Example using Fixed-Length List__
