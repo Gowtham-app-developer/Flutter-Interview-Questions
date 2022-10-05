@@ -1617,9 +1617,10 @@ Function taskToPerform() { // TODO Higher-Order Function
 
 __Example__
 
-void main() {
+```ruby
+void main() {  
 
-	// 1. A closure is a function that has access to the parent scope, even after the scope has closed.
+	// TODO 1. A closure is a function that has access to the parent scope, even after the scope has closed.
 
 	String message = "Dar is Programming Language";
 
@@ -1628,11 +1629,10 @@ void main() {
 		print(message);
 	};
 
-	showMessage();
+	showMessage();  
 
-
-	// 2. A closure is a function object that has access to variables in its lexical scope, 
-  // even when the function is used outside of its original scope.
+	// TODO 2. A closure is a function object that has access to variables in its lexical scope, 
+ 	// even when the function is used outside of its original scope.
 
 	Function talk = () {
 
